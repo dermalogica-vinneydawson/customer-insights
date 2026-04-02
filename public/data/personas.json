@@ -1,0 +1,257 @@
+[
+  {
+    "id": "ingredient-conscious",
+    "name": "The Ingredient-Conscious Shopper",
+    "archetype": "Educated, health-focused consumer who reads every label",
+    "avatar": "🧪",
+    "demographics": {
+      "ageRange": "28-42",
+      "gender": "72% Female",
+      "location": "Urban/Suburban, US West Coast & Northeast",
+      "income": "$75K-$120K",
+      "education": "College-educated"
+    },
+    "psychographics": {
+      "values": ["Transparency", "Clean beauty", "Science-backed results", "Sustainability"],
+      "lifestyle": "Wellness-oriented, researches before buying, follows skincare influencers",
+      "motivations": ["Wants to understand what goes on their skin", "Seeks professional-grade products", "Willing to pay more for quality ingredients"]
+    },
+    "painPoints": [
+      "Frustrated by greenwashing and vague ingredient claims",
+      "Overwhelmed by too many product options",
+      "Wants clearer guidance on which products work for their specific skin concerns",
+      "Dislikes when brands reformulate without notice"
+    ],
+    "purchaseBehavior": {
+      "aov": "$85",
+      "frequency": "Every 6-8 weeks",
+      "preferredProducts": ["Serums", "SPF", "Exfoliants"],
+      "channel": "70% DTC website, 20% Ulta, 10% Professional"
+    },
+    "contentAffinity": ["Ingredient deep-dives", "Dermatologist reviews", "Before/after content", "YouTube long-form skincare routines"],
+    "sentimentProfile": {
+      "overall": "positive",
+      "score": 0.78,
+      "drivers": {
+        "positive": ["Ingredient quality", "Visible results", "Professional heritage"],
+        "negative": ["Packaging changes", "Price increases", "Reformulations"]
+      }
+    },
+    "recommendations": {
+      "paidMedia": "Target lookalikes of high-CLV customers on Meta using interest signals: Clean Beauty, Skincare Science, Dermatology. Use ingredient-focused ad creative.",
+      "crm": "Create a dedicated ingredient education email series. Segment for early access to new formulations. Highlight clinical study results.",
+      "cro": "Add ingredient spotlight sections on PDPs. Show clinical data above the fold. Add a 'Why This Ingredient' tooltip on product pages."
+    },
+    "sampleSize": 4280,
+    "confidence": 0.89,
+    "topVerbatims": [
+      "I always check the ingredient list before buying anything. If I can't understand what's in it, I won't use it.",
+      "Love that the brand is transparent about concentrations. Most brands hide behind proprietary blends.",
+      "I switched from [competitor] because they changed their formula without telling anyone."
+    ]
+  },
+  {
+    "id": "routine-simplifier",
+    "name": "The Routine Simplifier",
+    "archetype": "Busy professional who wants effective skincare without complexity",
+    "avatar": "⚡",
+    "demographics": {
+      "ageRange": "30-50",
+      "gender": "65% Female, 35% Male",
+      "location": "Metropolitan areas nationwide",
+      "income": "$90K-$150K",
+      "education": "College/Graduate degree"
+    },
+    "psychographics": {
+      "values": ["Efficiency", "Quality over quantity", "Trusted recommendations", "Time-saving"],
+      "lifestyle": "Career-focused, limited time for skincare routines, prefers expert guidance over self-research",
+      "motivations": ["Wants a simple, effective routine", "Trusts professional recommendations", "Values multi-tasking products"]
+    },
+    "painPoints": [
+      "Overwhelmed by 10-step routines",
+      "Doesn't know which products to combine or layer",
+      "Frustrated when products don't show results quickly",
+      "Wants a curated routine, not a product catalog"
+    ],
+    "purchaseBehavior": {
+      "aov": "$110",
+      "frequency": "Every 8-10 weeks",
+      "preferredProducts": ["Kits/Sets", "Moisturizers", "Cleansers"],
+      "channel": "45% DTC website, 40% Professional/Spa, 15% Retail"
+    },
+    "contentAffinity": ["Quick routine videos", "Product bundles", "Expert picks", "Before/after with minimal steps"],
+    "sentimentProfile": {
+      "overall": "positive",
+      "score": 0.72,
+      "drivers": {
+        "positive": ["Effective kits", "Professional recommendations", "Noticeable results"],
+        "negative": ["Confusing product lineup", "Too many SKUs", "Unclear usage instructions"]
+      }
+    },
+    "recommendations": {
+      "paidMedia": "Lead with 'simplified routine' messaging. Target professionals 30-50 on LinkedIn and Meta. Use short-form video showing 3-step routines.",
+      "crm": "Build a 'Routine Builder' quiz flow in Klaviyo. Send curated routine emails based on skin type. Promote kits over individual products.",
+      "cro": "Add a 'Build Your Routine' wizard on the homepage. Bundle products with routine steps numbered. Show time-to-complete for each routine."
+    },
+    "sampleSize": 3150,
+    "confidence": 0.85,
+    "topVerbatims": [
+      "I don't have time for a 10-step routine. Just tell me the 3 things I need and I'll buy them.",
+      "Bought the kit because it took the guesswork out. Best decision I made for my skin.",
+      "The website has SO many products. I just want someone to tell me what to use."
+    ]
+  },
+  {
+    "id": "deal-seeker",
+    "name": "The Value-Driven Deal Seeker",
+    "archetype": "Price-sensitive customer who loves the brand but shops strategically",
+    "avatar": "🏷️",
+    "demographics": {
+      "ageRange": "22-35",
+      "gender": "80% Female",
+      "location": "Nationwide, over-indexes in Southeast & Midwest",
+      "income": "$40K-$70K",
+      "education": "Mixed"
+    },
+    "psychographics": {
+      "values": ["Value for money", "Smart shopping", "Social proof", "Discovery"],
+      "lifestyle": "Active on social media, follows beauty influencers, compares prices across retailers",
+      "motivations": ["Wants premium products at accessible prices", "Motivated by sales and bundles", "Influenced by peer reviews and TikTok"]
+    },
+    "painPoints": [
+      "Finds the brand too expensive at full price",
+      "Frustrated by infrequent sales or promotions",
+      "Wishes for a loyalty/rewards program",
+      "Compares prices across Ulta, Amazon, and DTC before buying"
+    ],
+    "purchaseBehavior": {
+      "aov": "$52",
+      "frequency": "Every 10-14 weeks (often during promotions)",
+      "preferredProducts": ["Trial sizes", "Cleansers", "Bestsellers"],
+      "channel": "40% Ulta/Retail, 35% DTC (during sales), 25% Amazon"
+    },
+    "contentAffinity": ["Sale announcements", "TikTok reviews", "Dupe comparisons", "Affordable routine content"],
+    "sentimentProfile": {
+      "overall": "mixed",
+      "score": 0.55,
+      "drivers": {
+        "positive": ["Product quality", "Brand reputation", "Results"],
+        "negative": ["Price", "Lack of promotions", "No loyalty program", "Cheaper alternatives exist"]
+      }
+    },
+    "recommendations": {
+      "paidMedia": "Retarget cart abandoners with discount offers. Use social proof ads featuring real customer reviews. Partner with mid-tier TikTok creators for authentic reviews.",
+      "crm": "Implement a loyalty/rewards program. Send personalized sale alerts. Create a 'Starter Kit' email series for price-sensitive segments.",
+      "cro": "Add social proof (review count + rating) prominently on PDPs. Show price-per-use calculations. Highlight value sets and bundles on the homepage."
+    },
+    "sampleSize": 5620,
+    "confidence": 0.91,
+    "topVerbatims": [
+      "Love the products but they're so expensive. I only buy during sales.",
+      "I wish there was a rewards program. I've been a customer for years and get nothing for my loyalty.",
+      "Saw a TikTok review and had to try it. Waited for the 20% off sale though."
+    ]
+  },
+  {
+    "id": "skin-concern-solver",
+    "name": "The Skin Concern Solver",
+    "archetype": "Customer with a specific skin issue seeking targeted solutions",
+    "avatar": "🎯",
+    "demographics": {
+      "ageRange": "25-55",
+      "gender": "75% Female",
+      "location": "Nationwide",
+      "income": "$55K-$100K",
+      "education": "Mixed"
+    },
+    "psychographics": {
+      "values": ["Results-driven", "Expert trust", "Problem-solving", "Clinical evidence"],
+      "lifestyle": "Actively searching for solutions to acne, aging, hyperpigmentation, or sensitivity",
+      "motivations": ["Wants a product that actually works for their specific concern", "Trusts dermatologist/esthetician recommendations", "Willing to invest if results are proven"]
+    },
+    "painPoints": [
+      "Has tried many products that didn't work",
+      "Skeptical of marketing claims",
+      "Needs help identifying the right product for their concern",
+      "Frustrated by products that cause irritation or breakouts"
+    ],
+    "purchaseBehavior": {
+      "aov": "$95",
+      "frequency": "Every 6-8 weeks once they find what works",
+      "preferredProducts": ["Treatment products", "Targeted serums", "Professional treatments"],
+      "channel": "50% Professional/Spa referral, 30% DTC, 20% Retail"
+    },
+    "contentAffinity": ["Skin concern guides", "Clinical results", "Esthetician recommendations", "Comparison content"],
+    "sentimentProfile": {
+      "overall": "positive",
+      "score": 0.82,
+      "drivers": {
+        "positive": ["Professional credibility", "Targeted treatments", "Visible improvement"],
+        "negative": ["Initial irritation", "Learning curve with products", "Want more guidance on product selection"]
+      }
+    },
+    "recommendations": {
+      "paidMedia": "Run concern-specific campaigns (acne, aging, dark spots). Target people searching for skin solutions on Google. Use before/after imagery with real results.",
+      "crm": "Segment by primary skin concern. Send targeted treatment plans via email. Follow up at 30/60/90 days to track results and recommend next steps.",
+      "cro": "Add a skin concern quiz as the primary CTA. Organize products by concern (not just category). Show clinical before/after photos on PDPs."
+    },
+    "sampleSize": 6890,
+    "confidence": 0.93,
+    "topVerbatims": [
+      "I've tried everything for my dark spots. My esthetician recommended this and it's the first thing that's actually worked.",
+      "Wish the website made it easier to find products for my specific skin type. I had to dig around.",
+      "The retinol serum caused some peeling at first but my skin has never looked better."
+    ]
+  },
+  {
+    "id": "brand-loyalist",
+    "name": "The Brand Loyalist",
+    "archetype": "Long-term customer who is emotionally connected to the brand",
+    "avatar": "💎",
+    "demographics": {
+      "ageRange": "35-60",
+      "gender": "85% Female",
+      "location": "Nationwide, over-indexes in California & New York",
+      "income": "$80K-$140K",
+      "education": "College-educated"
+    },
+    "psychographics": {
+      "values": ["Brand heritage", "Professional trust", "Consistency", "Community"],
+      "lifestyle": "Regular spa-goer, has a long-standing skincare routine, recommends products to friends and family",
+      "motivations": ["Emotional attachment to the brand", "Trusts the professional heritage", "Enjoys being part of the brand community"]
+    },
+    "painPoints": [
+      "Upset when favorite products are discontinued",
+      "Wants to feel recognized for loyalty",
+      "Dislikes changes to packaging or formulations",
+      "Wants exclusive access and perks"
+    ],
+    "purchaseBehavior": {
+      "aov": "$130",
+      "frequency": "Every 5-6 weeks",
+      "preferredProducts": ["Full regimen", "Premium treatments", "New launches"],
+      "channel": "55% DTC, 30% Professional/Spa, 15% Retail"
+    },
+    "contentAffinity": ["Brand story content", "Behind-the-scenes", "New product launches", "Professional education"],
+    "sentimentProfile": {
+      "overall": "very positive",
+      "score": 0.91,
+      "drivers": {
+        "positive": ["Brand trust", "Product consistency", "Professional heritage", "Results over years"],
+        "negative": ["Discontinuations", "Packaging changes", "Feeling unrecognized as loyal customer"]
+      }
+    },
+    "recommendations": {
+      "paidMedia": "Use as seed audience for Meta lookalikes. Feature in testimonial/UGC ads. Low priority for acquisition spend — focus on retention.",
+      "crm": "Create VIP tier with early access to launches. Send personalized thank-you messages. Invite to exclusive brand events. Never let them hear about discontinuations from social media first.",
+      "cro": "Add a 'Loyal Customer' welcome-back experience. Show personalized product recommendations based on purchase history. Feature a 'Your Routine' dashboard in their account."
+    },
+    "sampleSize": 2840,
+    "confidence": 0.87,
+    "topVerbatims": [
+      "I've been using this brand for 15 years and my skin has never looked better. I recommend it to everyone.",
+      "Was devastated when they discontinued my favorite moisturizer. Please bring it back!",
+      "I'd love a loyalty program or some kind of recognition. I've spent thousands over the years."
+    ]
+  }
+]

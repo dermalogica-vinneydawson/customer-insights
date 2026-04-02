@@ -1,0 +1,36 @@
+{
+  "overall": {
+    "score": 0.74,
+    "label": "Positive",
+    "totalMentions": 22360,
+    "breakdown": { "positive": 0.58, "neutral": 0.22, "negative": 0.20 }
+  },
+  "bySource": [
+    { "source": "Website Reviews", "score": 0.81, "mentions": 6840, "positive": 0.68, "neutral": 0.18, "negative": 0.14 },
+    { "source": "Google Reviews", "score": 0.72, "mentions": 3210, "positive": 0.55, "neutral": 0.25, "negative": 0.20 },
+    { "source": "Reddit", "score": 0.61, "mentions": 4520, "positive": 0.42, "neutral": 0.28, "negative": 0.30 },
+    { "source": "Social Media", "score": 0.77, "mentions": 5180, "positive": 0.62, "neutral": 0.20, "negative": 0.18 },
+    { "source": "Support Tickets", "score": 0.38, "mentions": 2610, "positive": 0.15, "neutral": 0.30, "negative": 0.55 }
+  ],
+  "overTime": [
+    { "month": "2025-07", "score": 0.76, "positive": 1180, "neutral": 420, "negative": 340 },
+    { "month": "2025-08", "score": 0.74, "positive": 1220, "neutral": 450, "negative": 380 },
+    { "month": "2025-09", "score": 0.71, "positive": 1150, "neutral": 460, "negative": 410 },
+    { "month": "2025-10", "score": 0.73, "positive": 1200, "neutral": 440, "negative": 390 },
+    { "month": "2025-11", "score": 0.70, "positive": 1100, "neutral": 480, "negative": 450 },
+    { "month": "2025-12", "score": 0.75, "positive": 1280, "neutral": 410, "negative": 360 },
+    { "month": "2026-01", "score": 0.77, "positive": 1320, "neutral": 400, "negative": 330 },
+    { "month": "2026-02", "score": 0.74, "positive": 1250, "neutral": 430, "negative": 370 },
+    { "month": "2026-03", "score": 0.72, "positive": 1190, "neutral": 450, "negative": 400 }
+  ],
+  "topPositiveDrivers": [
+    { "topic": "Product Results", "score": 0.88, "mentions": 6240 },
+    { "topic": "Professional Trust", "score": 0.82, "mentions": 3420 },
+    { "topic": "Ingredient Quality", "score": 0.78, "mentions": 2840 }
+  ],
+  "topNegativeDrivers": [
+    { "topic": "Pricing / Value", "score": 0.32, "mentions": 4120 },
+    { "topic": "Loyalty Recognition", "score": 0.28, "mentions": 2210 },
+    { "topic": "Shipping Experience", "score": 0.38, "mentions": 1580 }
+  ]
+}

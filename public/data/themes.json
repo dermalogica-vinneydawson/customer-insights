@@ -1,0 +1,149 @@
+[
+  {
+    "id": "ingredient-transparency",
+    "name": "Ingredient Transparency",
+    "category": "Product",
+    "mentionCount": 2840,
+    "sentiment": { "positive": 0.65, "neutral": 0.20, "negative": 0.15 },
+    "trend": "rising",
+    "trendDelta": 12,
+    "description": "Customers increasingly want to know exactly what's in the products and why each ingredient is included.",
+    "relatedPersonas": ["ingredient-conscious", "skin-concern-solver"],
+    "topVerbatims": [
+      "I love that the ingredient list is clearly explained on the product page.",
+      "More brands should be upfront about concentrations like this one is.",
+      "Would love to see a comparison of ingredients vs competitors."
+    ],
+    "teamImplications": {
+      "paidMedia": "Use ingredient callouts in ad creative — specificity converts.",
+      "crm": "Add ingredient education series to welcome flow.",
+      "cro": "Expand ingredient sections on PDPs with interactive tooltips."
+    }
+  },
+  {
+    "id": "pricing-value",
+    "name": "Pricing & Value Perception",
+    "category": "Price",
+    "mentionCount": 4120,
+    "sentiment": { "positive": 0.25, "neutral": 0.30, "negative": 0.45 },
+    "trend": "rising",
+    "trendDelta": 18,
+    "description": "Price sensitivity is increasing. Customers acknowledge quality but question value, especially compared to emerging competitors.",
+    "relatedPersonas": ["deal-seeker"],
+    "topVerbatims": [
+      "Great products but way too expensive for what you get.",
+      "I only buy during promotions. Full price is hard to justify.",
+      "Wish there was a subscription discount or loyalty rewards."
+    ],
+    "teamImplications": {
+      "paidMedia": "Test value-messaging ads vs. premium-messaging ads. Lead with cost-per-use framing.",
+      "crm": "Implement subscription/auto-replenish with discount. Launch loyalty program.",
+      "cro": "Add price-per-use calculator on PDPs. Promote bundles more prominently."
+    }
+  },
+  {
+    "id": "routine-complexity",
+    "name": "Routine Complexity",
+    "category": "Experience",
+    "mentionCount": 1950,
+    "sentiment": { "positive": 0.30, "neutral": 0.25, "negative": 0.45 },
+    "trend": "stable",
+    "trendDelta": 2,
+    "description": "Many customers feel overwhelmed by the number of products and don't know how to build a routine.",
+    "relatedPersonas": ["routine-simplifier"],
+    "topVerbatims": [
+      "There are too many products. I just need someone to tell me what to use.",
+      "The routine builder on the site was a game-changer for me.",
+      "I gave up trying to figure out layering order and just bought a kit."
+    ],
+    "teamImplications": {
+      "paidMedia": "Lead with simplified routine messaging. Show 3-step routines in video ads.",
+      "crm": "Send routine recommendation emails based on skin type quiz results.",
+      "cro": "Make the skin quiz the #1 CTA on the homepage. Simplify navigation by concern."
+    }
+  },
+  {
+    "id": "product-results",
+    "name": "Product Efficacy & Results",
+    "category": "Product",
+    "mentionCount": 6240,
+    "sentiment": { "positive": 0.75, "neutral": 0.15, "negative": 0.10 },
+    "trend": "stable",
+    "trendDelta": -1,
+    "description": "The strongest positive theme overall. Customers consistently praise visible results, especially for targeted treatments.",
+    "relatedPersonas": ["skin-concern-solver", "brand-loyalist", "ingredient-conscious"],
+    "topVerbatims": [
+      "My skin has completely transformed in 3 months. I get compliments all the time now.",
+      "The retinol serum is worth every penny. Real visible results.",
+      "My esthetician recommended this and it's the first thing that actually worked for my dark spots."
+    ],
+    "teamImplications": {
+      "paidMedia": "Double down on before/after UGC content. This is the strongest proof point.",
+      "crm": "Request reviews at 30/60/90 day marks when results peak. Feature top testimonials.",
+      "cro": "Add clinical results data and before/after gallery to every PDP."
+    }
+  },
+  {
+    "id": "shipping-experience",
+    "name": "Shipping & Delivery Experience",
+    "category": "Experience",
+    "mentionCount": 1580,
+    "sentiment": { "positive": 0.40, "neutral": 0.20, "negative": 0.40 },
+    "trend": "declining",
+    "trendDelta": -8,
+    "description": "Mixed feedback on shipping speed and packaging. Some customers report damaged products or slow delivery.",
+    "relatedPersonas": ["deal-seeker", "routine-simplifier"],
+    "topVerbatims": [
+      "Shipping took 10 days. That's way too long in 2025.",
+      "Product arrived with the box crushed and serum leaking. Very disappointing.",
+      "Free shipping threshold is too high. Other brands ship free at $35."
+    ],
+    "teamImplications": {
+      "paidMedia": "Avoid promoting free shipping unless threshold is competitive.",
+      "crm": "Send proactive shipping updates. Follow up on delayed orders with discount codes.",
+      "cro": "Show estimated delivery date on PDP and cart. Lower free shipping threshold if possible."
+    }
+  },
+  {
+    "id": "loyalty-recognition",
+    "name": "Loyalty & Recognition",
+    "category": "Brand",
+    "mentionCount": 2210,
+    "sentiment": { "positive": 0.20, "neutral": 0.25, "negative": 0.55 },
+    "trend": "rising",
+    "trendDelta": 22,
+    "description": "Rapidly growing demand for a loyalty/rewards program. Long-term customers feel unrecognized.",
+    "relatedPersonas": ["brand-loyalist", "deal-seeker"],
+    "topVerbatims": [
+      "Every other brand has a loyalty program. Why doesn't this one?",
+      "I've been a customer for 10 years and there's no reward for my loyalty.",
+      "A points system or VIP tier would make me buy exclusively from the brand."
+    ],
+    "teamImplications": {
+      "paidMedia": "If loyalty program launches, make it a major campaign moment.",
+      "crm": "This is the #1 CRM opportunity. Prioritize loyalty program development.",
+      "cro": "Add a 'Join Waitlist' for loyalty program to gauge interest and collect emails."
+    }
+  },
+  {
+    "id": "professional-trust",
+    "name": "Professional & Expert Credibility",
+    "category": "Brand",
+    "mentionCount": 3420,
+    "sentiment": { "positive": 0.82, "neutral": 0.12, "negative": 0.06 },
+    "trend": "stable",
+    "trendDelta": 0,
+    "description": "The professional/esthetician connection is a massive brand differentiator. Customers trust the brand because professionals recommend it.",
+    "relatedPersonas": ["skin-concern-solver", "brand-loyalist", "ingredient-conscious"],
+    "topVerbatims": [
+      "My esthetician introduced me to this brand and I've never looked back.",
+      "The fact that skin therapists use these products gives me so much confidence.",
+      "I trust this brand more than drugstore brands because of its professional roots."
+    ],
+    "teamImplications": {
+      "paidMedia": "Feature estheticians/skin therapists in ad creative. Professional endorsement > influencer content for this audience.",
+      "crm": "Partner with estheticians for co-branded email content. Offer 'Ask a Skin Therapist' in emails.",
+      "cro": "Add 'Recommended by X,000 Skin Therapists' trust badge to homepage and PDPs."
+    }
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "summary": {
+    "totalResponses": 8420,
+    "responseRate": 0.42,
+    "dateRange": "2025-07 to 2026-03",
+    "questionsAsked": 6
+  },
+  "questions": [
+    {
+      "id": "hdyhau",
+      "question": "How did you hear about us?",
+      "type": "attribution",
+      "totalResponses": 8420,
+      "responses": [
+        { "answer": "Instagram / Facebook Ad", "count": 2360, "pct": 0.28, "avgOrderValue": "$68", "revenueAttribPct": 0.24 },
+        { "answer": "Friend or Family Recommendation", "count": 1768, "pct": 0.21, "avgOrderValue": "$105", "revenueAttribPct": 0.28 },
+        { "answer": "Esthetician / Skin Therapist", "count": 1432, "pct": 0.17, "avgOrderValue": "$118", "revenueAttribPct": 0.25 },
+        { "answer": "Google Search", "count": 1010, "pct": 0.12, "avgOrderValue": "$72", "revenueAttribPct": 0.11 },
+        { "answer": "TikTok", "count": 842, "pct": 0.10, "avgOrderValue": "$54", "revenueAttribPct": 0.07 },
+        { "answer": "YouTube", "count": 421, "pct": 0.05, "avgOrderValue": "$82", "revenueAttribPct": 0.05 },
+        { "answer": "Podcast", "count": 252, "pct": 0.03, "avgOrderValue": "$91", "revenueAttribPct": 0.03 },
+        { "answer": "Other", "count": 335, "pct": 0.04, "avgOrderValue": "$74", "revenueAttribPct": 0.04 }
+      ],
+      "personaBreakdown": {
+        "ingredient-conscious": ["Esthetician / Skin Therapist", "YouTube", "Google Search"],
+        "routine-simplifier": ["Friend or Family Recommendation", "Esthetician / Skin Therapist", "Instagram / Facebook Ad"],
+        "deal-seeker": ["TikTok", "Instagram / Facebook Ad", "Google Search"],
+        "skin-concern-solver": ["Esthetician / Skin Therapist", "Google Search", "Friend or Family Recommendation"],
+        "brand-loyalist": ["Esthetician / Skin Therapist", "Friend or Family Recommendation", "Instagram / Facebook Ad"]
+      },
+      "insights": [
+        "Esthetician referrals drive the highest AOV ($118) despite being only 17% of responses — professional channel punches above its weight.",
+        "TikTok drives volume (10%) but lowest AOV ($54) — primarily attracting deal-seekers.",
+        "Word-of-mouth (21%) has the second highest AOV ($105) — loyal customers are the best acquisition channel.",
+        "Meta Ads are the #1 reported channel but AOV trails referrals by 35% — targeting may be too broad."
+      ]
+    },
+    {
+      "id": "purchase-reason",
+      "question": "What was the main reason you decided to purchase today?",
+      "type": "motivation",
+      "totalResponses": 7890,
+      "responses": [
+        { "answer": "Running low / needed to restock", "count": 2525, "pct": 0.32 },
+        { "answer": "Saw a promotion or sale", "count": 1578, "pct": 0.20 },
+        { "answer": "Professional recommended it", "count": 1420, "pct": 0.18 },
+        { "answer": "Trying to solve a specific skin concern", "count": 1104, "pct": 0.14 },
+        { "answer": "Saw a review or recommendation online", "count": 710, "pct": 0.09 },
+        { "answer": "Gift for someone", "count": 395, "pct": 0.05 },
+        { "answer": "Other", "count": 158, "pct": 0.02 }
+      ],
+      "personaBreakdown": {
+        "ingredient-conscious": ["Running low / needed to restock", "Professional recommended it"],
+        "routine-simplifier": ["Running low / needed to restock", "Professional recommended it"],
+        "deal-seeker": ["Saw a promotion or sale", "Saw a review or recommendation online"],
+        "skin-concern-solver": ["Trying to solve a specific skin concern", "Professional recommended it"],
+        "brand-loyalist": ["Running low / needed to restock", "Gift for someone"]
+      },
+      "insights": [
+        "32% are replenishment purchases — strong retention signal. CRM should optimize restock reminders.",
+        "20% are promotion-driven — confirms deal-seeker persona is real and sizable.",
+        "Professional recommendations drive 18% of purchases — this channel needs more investment.",
+        "Only 9% cite online reviews — suggests reviews are a validator, not a primary driver."
+      ]
+    },
+    {
+      "id": "almost-stopped",
+      "question": "What almost stopped you from buying today?",
+      "type": "conversion-blocker",
+      "totalResponses": 6240,
+      "responses": [
+        { "answer": "Price was higher than expected", "count": 1935, "pct": 0.31 },
+        { "answer": "Nothing, it was an easy decision", "count": 1498, "pct": 0.24 },
+        { "answer": "Wasn't sure which product to choose", "count": 874, "pct": 0.14 },
+        { "answer": "Shipping cost or speed", "count": 749, "pct": 0.12 },
+        { "answer": "Wanted to compare with other brands first", "count": 562, "pct": 0.09 },
+        { "answer": "Wasn't sure it would work for my skin", "count": 437, "pct": 0.07 },
+        { "answer": "Other", "count": 185, "pct": 0.03 }
+      ],
+      "personaBreakdown": {
+        "ingredient-conscious": ["Nothing, it was an easy decision", "Wanted to compare with other brands first"],
+        "routine-simplifier": ["Wasn't sure which product to choose", "Nothing, it was an easy decision"],
+        "deal-seeker": ["Price was higher than expected", "Shipping cost or speed"],
+        "skin-concern-solver": ["Wasn't sure it would work for my skin", "Wasn't sure which product to choose"],
+        "brand-loyalist": ["Nothing, it was an easy decision", "Price was higher than expected"]
+      },
+      "insights": [
+        "Price is the #1 blocker (31%) — reinforces need for value messaging and loyalty program.",
+        "14% weren't sure which product to choose — the product selection/quiz experience is a CRO priority.",
+        "Shipping concerns block 12% — lowering free shipping threshold would directly impact conversion.",
+        "24% said 'nothing' — these are high-intent buyers, likely brand loyalists and restock customers."
+      ]
+    },
+    {
+      "id": "biggest-benefit",
+      "question": "In your mind, what is the product's biggest benefit to you?",
+      "type": "value-perception",
+      "totalResponses": 5680,
+      "responses": [
+        { "answer": "Visible results / my skin looks better", "count": 1932, "pct": 0.34 },
+        { "answer": "Professional-grade quality I can trust", "count": 1193, "pct": 0.21 },
+        { "answer": "Clean, safe ingredients", "count": 909, "pct": 0.16 },
+        { "answer": "Simplifies my skincare routine", "count": 625, "pct": 0.11 },
+        { "answer": "Targets my specific skin concern", "count": 568, "pct": 0.10 },
+        { "answer": "Good value for the quality", "count": 341, "pct": 0.06 },
+        { "answer": "Other", "count": 112, "pct": 0.02 }
+      ],
+      "insights": [
+        "'Visible results' is the #1 perceived benefit (34%) — this should be the hero message across all channels.",
+        "'Professional-grade quality' (21%) validates the professional trust theme — lean into esthetician credibility.",
+        "'Clean ingredients' (16%) maps directly to the ingredient-conscious persona.",
+        "Only 6% cite 'value' — the brand is NOT perceived as a value play. Premium positioning is correct."
+      ]
+    },
+    {
+      "id": "product-use",
+      "question": "How are you planning to use the product you purchased?",
+      "type": "intent",
+      "totalResponses": 4920,
+      "responses": [
+        { "answer": "Daily skincare routine", "count": 2165, "pct": 0.44 },
+        { "answer": "Treating a specific skin issue", "count": 1230, "pct": 0.25 },
+        { "answer": "Anti-aging / prevention", "count": 788, "pct": 0.16 },
+        { "answer": "Gift for someone", "count": 394, "pct": 0.08 },
+        { "answer": "Trying it out for the first time", "count": 343, "pct": 0.07 }
+      ],
+      "insights": [
+        "44% use for daily routine — CRM should optimize for replenishment timing.",
+        "25% treating a specific issue — post-purchase follow-up should ask about results at 30/60/90 days.",
+        "8% are gifts — seasonal gift campaigns and gift set merchandising are an opportunity.",
+        "7% are first-time triers — critical to convert these to repeat buyers with strong onboarding flow."
+      ]
+    },
+    {
+      "id": "communication-pref",
+      "question": "What types of communications would you prefer to receive?",
+      "type": "preference",
+      "totalResponses": 4350,
+      "responses": [
+        { "answer": "New product launches", "count": 1436, "pct": 0.33 },
+        { "answer": "Skincare tips & education", "count": 1131, "pct": 0.26 },
+        { "answer": "Sales & promotions", "count": 914, "pct": 0.21 },
+        { "answer": "Routine recommendations", "count": 522, "pct": 0.12 },
+        { "answer": "Professional/expert content", "count": 348, "pct": 0.08 }
+      ],
+      "insights": [
+        "33% want new product launches — CRM should prioritize launch announcements to this segment.",
+        "26% prefer education — maps to ingredient-conscious persona; fuel the education email series.",
+        "21% want sales/promos — confirms deal-seeker segment size; use for promotional flow targeting.",
+        "Self-segmentation via this question can directly feed Klaviyo profile properties for personalization."
+      ]
+    }
+  ]
+}

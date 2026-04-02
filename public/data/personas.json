@@ -1,257 +1,471 @@
 [
   {
-    "id": "ingredient-conscious",
-    "name": "The Ingredient-Conscious Shopper",
-    "archetype": "Educated, health-focused consumer who reads every label",
-    "avatar": "🧪",
+    "id": "esthetician-loyalist",
+    "name": "The Pro-Referred Loyalist",
+    "archetype": "Trusts her esthetician implicitly and treats Dermalogica as the gold standard in professional skincare",
+    "avatar": "\ud83d\udc86",
     "demographics": {
-      "ageRange": "28-42",
-      "gender": "72% Female",
-      "location": "Urban/Suburban, US West Coast & Northeast",
-      "income": "$75K-$120K",
-      "education": "College-educated"
+      "ageRange": "32-48",
+      "gender": "84% Female",
+      "location": "US Suburban, major metro adjacents (DFW, Atlanta, Chicago suburbs)",
+      "income": "$85K-$140K",
+      "education": "College-educated, some graduate degrees"
     },
     "psychographics": {
-      "values": ["Transparency", "Clean beauty", "Science-backed results", "Sustainability"],
-      "lifestyle": "Wellness-oriented, researches before buying, follows skincare influencers",
-      "motivations": ["Wants to understand what goes on their skin", "Seeks professional-grade products", "Willing to pay more for quality ingredients"]
+      "values": [
+        "Professional expertise",
+        "Trusted recommendations",
+        "Consistency over novelty",
+        "Skin health over trends"
+      ],
+      "lifestyle": "Books regular facial appointments every 4-8 weeks, views skincare as self-care ritual, loyal to service providers and the brands they recommend",
+      "motivations": [
+        "Wants to replicate professional results at home",
+        "Values the credibility of esthetician endorsement",
+        "Prefers guided product selection over self-research"
+      ]
     },
     "painPoints": [
-      "Frustrated by greenwashing and vague ingredient claims",
-      "Overwhelmed by too many product options",
-      "Wants clearer guidance on which products work for their specific skin concerns",
-      "Dislikes when brands reformulate without notice"
+      "Feels overwhelmed by the full Dermalogica product lineup without professional guidance",
+      "Occasionally feels pressured by post-facial upselling at the spa or salon",
+      "Frustrated when favorite products are reformulated or discontinued",
+      "Worried the brand is losing its professional-only prestige as it becomes more retail"
     ],
     "purchaseBehavior": {
-      "aov": "$85",
-      "frequency": "Every 6-8 weeks",
-      "preferredProducts": ["Serums", "SPF", "Exfoliants"],
-      "channel": "70% DTC website, 20% Ulta, 10% Professional"
+      "aov": "$112",
+      "frequency": "Every 6-8 weeks, often timed with facial appointments",
+      "preferredProducts": [
+        "Daily Microfoliant",
+        "Precleanse",
+        "Special Cleansing Gel",
+        "Dynamic Skin Recovery SPF50",
+        "MultiVitamin Power Recovery Masque"
+      ],
+      "channel": "45% Professional/spa purchase, 30% DTC website, 15% Ulta, 10% Nordstrom"
     },
-    "contentAffinity": ["Ingredient deep-dives", "Dermatologist reviews", "Before/after content", "YouTube long-form skincare routines"],
-    "sentimentProfile": {
-      "overall": "positive",
-      "score": 0.78,
-      "drivers": {
-        "positive": ["Ingredient quality", "Visible results", "Professional heritage"],
-        "negative": ["Packaging changes", "Price increases", "Reformulations"]
-      }
-    },
-    "recommendations": {
-      "paidMedia": "Target lookalikes of high-CLV customers on Meta using interest signals: Clean Beauty, Skincare Science, Dermatology. Use ingredient-focused ad creative.",
-      "crm": "Create a dedicated ingredient education email series. Segment for early access to new formulations. Highlight clinical study results.",
-      "cro": "Add ingredient spotlight sections on PDPs. Show clinical data above the fold. Add a 'Why This Ingredient' tooltip on product pages."
-    },
-    "sampleSize": 4280,
-    "confidence": 0.89,
-    "topVerbatims": [
-      "I always check the ingredient list before buying anything. If I can't understand what's in it, I won't use it.",
-      "Love that the brand is transparent about concentrations. Most brands hide behind proprietary blends.",
-      "I switched from [competitor] because they changed their formula without telling anyone."
-    ]
-  },
-  {
-    "id": "routine-simplifier",
-    "name": "The Routine Simplifier",
-    "archetype": "Busy professional who wants effective skincare without complexity",
-    "avatar": "⚡",
-    "demographics": {
-      "ageRange": "30-50",
-      "gender": "65% Female, 35% Male",
-      "location": "Metropolitan areas nationwide",
-      "income": "$90K-$150K",
-      "education": "College/Graduate degree"
-    },
-    "psychographics": {
-      "values": ["Efficiency", "Quality over quantity", "Trusted recommendations", "Time-saving"],
-      "lifestyle": "Career-focused, limited time for skincare routines, prefers expert guidance over self-research",
-      "motivations": ["Wants a simple, effective routine", "Trusts professional recommendations", "Values multi-tasking products"]
-    },
-    "painPoints": [
-      "Overwhelmed by 10-step routines",
-      "Doesn't know which products to combine or layer",
-      "Frustrated when products don't show results quickly",
-      "Wants a curated routine, not a product catalog"
+    "contentAffinity": [
+      "Esthetician testimonials and behind-the-scenes content",
+      "Before/after transformation stories",
+      "Professional skin analysis education",
+      "Ingredient deep-dives from licensed pros"
     ],
-    "purchaseBehavior": {
-      "aov": "$110",
-      "frequency": "Every 8-10 weeks",
-      "preferredProducts": ["Kits/Sets", "Moisturizers", "Cleansers"],
-      "channel": "45% DTC website, 40% Professional/Spa, 15% Retail"
-    },
-    "contentAffinity": ["Quick routine videos", "Product bundles", "Expert picks", "Before/after with minimal steps"],
-    "sentimentProfile": {
-      "overall": "positive",
-      "score": 0.72,
-      "drivers": {
-        "positive": ["Effective kits", "Professional recommendations", "Noticeable results"],
-        "negative": ["Confusing product lineup", "Too many SKUs", "Unclear usage instructions"]
-      }
-    },
-    "recommendations": {
-      "paidMedia": "Lead with 'simplified routine' messaging. Target professionals 30-50 on LinkedIn and Meta. Use short-form video showing 3-step routines.",
-      "crm": "Build a 'Routine Builder' quiz flow in Klaviyo. Send curated routine emails based on skin type. Promote kits over individual products.",
-      "cro": "Add a 'Build Your Routine' wizard on the homepage. Bundle products with routine steps numbered. Show time-to-complete for each routine."
-    },
-    "sampleSize": 3150,
-    "confidence": 0.85,
-    "topVerbatims": [
-      "I don't have time for a 10-step routine. Just tell me the 3 things I need and I'll buy them.",
-      "Bought the kit because it took the guesswork out. Best decision I made for my skin.",
-      "The website has SO many products. I just want someone to tell me what to use."
-    ]
-  },
-  {
-    "id": "deal-seeker",
-    "name": "The Value-Driven Deal Seeker",
-    "archetype": "Price-sensitive customer who loves the brand but shops strategically",
-    "avatar": "🏷️",
-    "demographics": {
-      "ageRange": "22-35",
-      "gender": "80% Female",
-      "location": "Nationwide, over-indexes in Southeast & Midwest",
-      "income": "$40K-$70K",
-      "education": "Mixed"
-    },
-    "psychographics": {
-      "values": ["Value for money", "Smart shopping", "Social proof", "Discovery"],
-      "lifestyle": "Active on social media, follows beauty influencers, compares prices across retailers",
-      "motivations": ["Wants premium products at accessible prices", "Motivated by sales and bundles", "Influenced by peer reviews and TikTok"]
-    },
-    "painPoints": [
-      "Finds the brand too expensive at full price",
-      "Frustrated by infrequent sales or promotions",
-      "Wishes for a loyalty/rewards program",
-      "Compares prices across Ulta, Amazon, and DTC before buying"
-    ],
-    "purchaseBehavior": {
-      "aov": "$52",
-      "frequency": "Every 10-14 weeks (often during promotions)",
-      "preferredProducts": ["Trial sizes", "Cleansers", "Bestsellers"],
-      "channel": "40% Ulta/Retail, 35% DTC (during sales), 25% Amazon"
-    },
-    "contentAffinity": ["Sale announcements", "TikTok reviews", "Dupe comparisons", "Affordable routine content"],
-    "sentimentProfile": {
-      "overall": "mixed",
-      "score": 0.55,
-      "drivers": {
-        "positive": ["Product quality", "Brand reputation", "Results"],
-        "negative": ["Price", "Lack of promotions", "No loyalty program", "Cheaper alternatives exist"]
-      }
-    },
-    "recommendations": {
-      "paidMedia": "Retarget cart abandoners with discount offers. Use social proof ads featuring real customer reviews. Partner with mid-tier TikTok creators for authentic reviews.",
-      "crm": "Implement a loyalty/rewards program. Send personalized sale alerts. Create a 'Starter Kit' email series for price-sensitive segments.",
-      "cro": "Add social proof (review count + rating) prominently on PDPs. Show price-per-use calculations. Highlight value sets and bundles on the homepage."
-    },
-    "sampleSize": 5620,
-    "confidence": 0.91,
-    "topVerbatims": [
-      "Love the products but they're so expensive. I only buy during sales.",
-      "I wish there was a rewards program. I've been a customer for years and get nothing for my loyalty.",
-      "Saw a TikTok review and had to try it. Waited for the 20% off sale though."
-    ]
-  },
-  {
-    "id": "skin-concern-solver",
-    "name": "The Skin Concern Solver",
-    "archetype": "Customer with a specific skin issue seeking targeted solutions",
-    "avatar": "🎯",
-    "demographics": {
-      "ageRange": "25-55",
-      "gender": "75% Female",
-      "location": "Nationwide",
-      "income": "$55K-$100K",
-      "education": "Mixed"
-    },
-    "psychographics": {
-      "values": ["Results-driven", "Expert trust", "Problem-solving", "Clinical evidence"],
-      "lifestyle": "Actively searching for solutions to acne, aging, hyperpigmentation, or sensitivity",
-      "motivations": ["Wants a product that actually works for their specific concern", "Trusts dermatologist/esthetician recommendations", "Willing to invest if results are proven"]
-    },
-    "painPoints": [
-      "Has tried many products that didn't work",
-      "Skeptical of marketing claims",
-      "Needs help identifying the right product for their concern",
-      "Frustrated by products that cause irritation or breakouts"
-    ],
-    "purchaseBehavior": {
-      "aov": "$95",
-      "frequency": "Every 6-8 weeks once they find what works",
-      "preferredProducts": ["Treatment products", "Targeted serums", "Professional treatments"],
-      "channel": "50% Professional/Spa referral, 30% DTC, 20% Retail"
-    },
-    "contentAffinity": ["Skin concern guides", "Clinical results", "Esthetician recommendations", "Comparison content"],
     "sentimentProfile": {
       "overall": "positive",
       "score": 0.82,
       "drivers": {
-        "positive": ["Professional credibility", "Targeted treatments", "Visible improvement"],
-        "negative": ["Initial irritation", "Learning curve with products", "Want more guidance on product selection"]
+        "positive": [
+          "Professional credibility and training program",
+          "Product efficacy especially exfoliants",
+          "Double cleanse ritual",
+          "Products last a long time for the price"
+        ],
+        "negative": [
+          "Post-facial upselling feels pushy",
+          "Too many products makes self-selection difficult",
+          "Concerned brand is going mass-market"
+        ]
       }
     },
     "recommendations": {
-      "paidMedia": "Run concern-specific campaigns (acne, aging, dark spots). Target people searching for skin solutions on Google. Use before/after imagery with real results.",
-      "crm": "Segment by primary skin concern. Send targeted treatment plans via email. Follow up at 30/60/90 days to track results and recommend next steps.",
-      "cro": "Add a skin concern quiz as the primary CTA. Organize products by concern (not just category). Show clinical before/after photos on PDPs."
+      "paidMedia": "Run Meta and YouTube campaigns featuring real estheticians demonstrating products with professional authority. Target lookalikes of existing spa-purchase customers and layer in interest targeting for facial/spa services. Prioritize video over static.",
+      "crm": "Build a post-appointment email flow triggered by spa purchase data that reinforces the esthetician's specific recommendations with regimen guides. Introduce a loyalty program tier for professional-channel buyers with early access to new launches.",
+      "cro": "Add an esthetician-recommended badge and regimen builder tool on PDP pages. Surface the professional endorsement story more prominently above the fold. Test a consultation booking CTA against standard add-to-cart on high-AOV product pages."
     },
-    "sampleSize": 6890,
-    "confidence": 0.93,
+    "sampleSize": 5820,
+    "confidence": 0.87,
     "topVerbatims": [
-      "I've tried everything for my dark spots. My esthetician recommended this and it's the first thing that's actually worked.",
-      "Wish the website made it easier to find products for my specific skin type. I had to dig around.",
-      "The retinol serum caused some peeling at first but my skin has never looked better."
+      {
+        "text": "I am OBESSED with this exfoliator!!! After using this, my skin felt polished and clean as if I went to get a professional spa facial. I can't get enough of this stuff!",
+        "source": "Website Review",
+        "date": "2022-09-02",
+        "product": "your moment of expertise set (6 full-size + 2 face tools + headband)"
+      },
+      {
+        "text": "These products are amazing. I have dry skin with redness and rosacea. These Demagogica products calmed the redness and made my face feel soft. Using these products and knowing that they work well for my skin type will definitely have me buying more of their products in the future. They're great",
+        "source": "Website Review",
+        "date": "2020-02-21",
+        "product": "intensive moisture trio"
+      },
+      {
+        "text": "A little goes a long way and it's brilliant to use with a facial exfoliating pad. My skin always feels fresh and calm after use, great quality and worth the money. I will be purchasing again! (I have acne pretty bad, it doesn't irritate it at all, yay!)",
+        "source": "Website Review",
+        "date": "2021-06-02",
+        "product": "ultracalming cleanser"
+      }
     ]
   },
   {
-    "id": "brand-loyalist",
-    "name": "The Brand Loyalist",
-    "archetype": "Long-term customer who is emotionally connected to the brand",
-    "avatar": "💎",
+    "id": "price-conscious-comparer",
+    "name": "The Value-Driven Skeptic",
+    "archetype": "Constantly weighs Dermalogica's premium pricing against drugstore alternatives and needs proof the markup is justified",
+    "avatar": "\ud83d\udcb8",
     "demographics": {
-      "ageRange": "35-60",
-      "gender": "85% Female",
-      "location": "Nationwide, over-indexes in California & New York",
-      "income": "$80K-$140K",
-      "education": "College-educated"
+      "ageRange": "24-36",
+      "gender": "76% Female",
+      "location": "US nationwide, skewing urban, active on Reddit skincare communities",
+      "income": "$45K-$80K",
+      "education": "College-educated, digitally savvy"
     },
     "psychographics": {
-      "values": ["Brand heritage", "Professional trust", "Consistency", "Community"],
-      "lifestyle": "Regular spa-goer, has a long-standing skincare routine, recommends products to friends and family",
-      "motivations": ["Emotional attachment to the brand", "Trusts the professional heritage", "Enjoys being part of the brand community"]
+      "values": [
+        "Value for money",
+        "Ingredient transparency",
+        "Community validation",
+        "Skepticism toward marketing hype"
+      ],
+      "lifestyle": "Active on r/SkincareAddiction and r/30PlusSkinCare, compares ingredient lists across brands, watches dermatologist YouTube channels, buys across multiple brands",
+      "motivations": [
+        "Wants professional-grade results without the professional price tag",
+        "Seeks peer validation before committing to expensive products",
+        "Open to Dermalogica if someone proves it outperforms cheaper alternatives"
+      ]
     },
     "painPoints": [
-      "Upset when favorite products are discontinued",
-      "Wants to feel recognized for loyalty",
-      "Dislikes changes to packaging or formulations",
-      "Wants exclusive access and perks"
+      "Sees CeraVe, La Roche-Posay, and The Ordinary delivering similar ingredient profiles at a fraction of the cost",
+      "Feels the Dermalogica website has too many products with overlapping claims",
+      "Frustrated by shipping costs and slow delivery on the DTC site",
+      "Skeptical of influencer and esthetician recommendations that feel like paid promotion"
     ],
     "purchaseBehavior": {
-      "aov": "$130",
-      "frequency": "Every 5-6 weeks",
-      "preferredProducts": ["Full regimen", "Premium treatments", "New launches"],
-      "channel": "55% DTC, 30% Professional/Spa, 15% Retail"
+      "aov": "$52",
+      "frequency": "Every 10-14 weeks, cherry-picks hero products only",
+      "preferredProducts": [
+        "Daily Microfoliant",
+        "Biolumin-C Serum",
+        "Skin Smoothing Cream"
+      ],
+      "channel": "40% Ulta (leverages points/coupons), 35% DTC website during promos, 25% Amazon/Dermstore"
     },
-    "contentAffinity": ["Brand story content", "Behind-the-scenes", "New product launches", "Professional education"],
+    "contentAffinity": [
+      "Side-by-side ingredient comparisons",
+      "Reddit-style honest reviews and threads",
+      "Cost-per-use breakdowns",
+      "Dermatologist opinions on premium vs drugstore"
+    ],
     "sentimentProfile": {
-      "overall": "very positive",
-      "score": 0.91,
+      "overall": "mixed",
+      "score": 0.48,
       "drivers": {
-        "positive": ["Brand trust", "Product consistency", "Professional heritage", "Results over years"],
-        "negative": ["Discontinuations", "Packaging changes", "Feeling unrecognized as loyal customer"]
+        "positive": [
+          "Daily Microfoliant has no true drugstore equivalent",
+          "Biolumin-C Serum delivers visible results",
+          "Products last longer than expected per ounce"
+        ],
+        "negative": [
+          "Price premium feels unjustified for cleansers and moisturizers",
+          "CeraVe and The Ordinary offer comparable actives for less",
+          "Shipping and website experience are frustrating"
+        ]
       }
     },
     "recommendations": {
-      "paidMedia": "Use as seed audience for Meta lookalikes. Feature in testimonial/UGC ads. Low priority for acquisition spend — focus on retention.",
-      "crm": "Create VIP tier with early access to launches. Send personalized thank-you messages. Invite to exclusive brand events. Never let them hear about discontinuations from social media first.",
-      "cro": "Add a 'Loyal Customer' welcome-back experience. Show personalized product recommendations based on purchase history. Feature a 'Your Routine' dashboard in their account."
+      "paidMedia": "Deploy Google Search campaigns targeting comparison queries like 'Dermalogica vs CeraVe' and 'is Dermalogica worth it' with landing pages that show clinical proof and cost-per-use math. Run Reddit ads in skincare communities with authentic, non-salesy creative.",
+      "crm": "Create a 'worth the investment' welcome series for first-time buyers that leads with cost-per-use data and longevity stats. Trigger win-back flows with value bundles and free shipping thresholds when purchase gaps exceed 12 weeks.",
+      "cro": "Add a cost-per-use calculator on hero product PDPs showing daily price vs drugstore comparisons. Test a starter kit bundle at a sub-$50 price point on the homepage. Implement a quiz that narrows the full lineup to 3-4 recommended products to reduce decision fatigue."
     },
-    "sampleSize": 2840,
-    "confidence": 0.87,
+    "sampleSize": 5360,
+    "confidence": 0.84,
     "topVerbatims": [
-      "I've been using this brand for 15 years and my skin has never looked better. I recommend it to everyone.",
-      "Was devastated when they discontinued my favorite moisturizer. Please bring it back!",
-      "I'd love a loyalty program or some kind of recognition. I've spent thousands over the years."
+      {
+        "text": "Too expensive. Go with Skin Fix products.",
+        "source": "Website Review",
+        "date": "2023-12-30",
+        "product": "skin smoothing cream moisturizer"
+      },
+      {
+        "text": "This is better than your average HA serum, but costs more too. I like that the smell is not too strong. The texture is thick but spreads and absorbs easily. It certainly was more than enough for my combo mature skin. Complimentary from Dermalogica",
+        "source": "Website Review",
+        "date": "2022-06-04",
+        "product": "home for the holidays set (4 travel-size + bag)"
+      },
+      {
+        "text": "I first got this as a sample when it first got out. I thought to myself, wow, this is a great product so I bought the big size. The more I was using it, I was breaking out... if you want to use this I would suggest you mixed it with your moisturizer. I will give it another try since I still have som",
+        "source": "Website Review",
+        "date": "2020-03-29",
+        "product": "phyto replenish oil"
+      }
+    ]
+  },
+  {
+    "id": "results-driven-enthusiast",
+    "name": "The Ingredient-Obsessed Researcher",
+    "archetype": "Deep-dives into formulation science and expects measurable, visible results from every product in the rotation",
+    "avatar": "\ud83d\udd2c",
+    "demographics": {
+      "ageRange": "28-42",
+      "gender": "70% Female",
+      "location": "US coastal metros (LA, NYC, SF, Seattle), some international (UK, Australia)",
+      "income": "$90K-$150K",
+      "education": "College or graduate degree, STEM or healthcare-adjacent fields common"
+    },
+    "psychographics": {
+      "values": [
+        "Evidence-based skincare",
+        "Ingredient efficacy",
+        "Targeted treatments over generalist products",
+        "Professional-grade formulations"
+      ],
+      "lifestyle": "Follows cosmetic chemists on social media, reads INCI lists before purchasing, tracks skin progress with photos, curates multi-brand routine based on specific active ingredients",
+      "motivations": [
+        "Wants products that address specific concerns like hyperpigmentation, texture, or barrier repair",
+        "Values Dermalogica's science-backed positioning but holds it to a high standard",
+        "Will pay premium only for formulations she cannot replicate elsewhere"
+      ]
+    },
+    "painPoints": [
+      "Some Dermalogica products contain essential oils and fragrance that concern sensitive/rosacea-prone users",
+      "Wants more clinical data and before/after evidence on the website",
+      "Feels the brand lags competitors like Environ, Cosmedix, and Face Reality on cutting-edge actives",
+      "Wishes the Face Mapping concept translated into more personalized product recommendations online"
+    ],
+    "purchaseBehavior": {
+      "aov": "$95",
+      "frequency": "Every 5-7 weeks, replenishes actives and treatment products first",
+      "preferredProducts": [
+        "Biolumin-C Serum",
+        "Daily Microfoliant",
+        "Retinol Clearing Oil",
+        "Dynamic Skin Recovery SPF50",
+        "BioSculpt"
+      ],
+      "channel": "50% DTC website, 25% Dermstore, 15% Professional/spa, 10% Nordstrom"
+    },
+    "contentAffinity": [
+      "Clinical trial data and efficacy studies",
+      "Cosmetic chemist breakdowns of formulations",
+      "Ingredient comparison content vs competitor brands",
+      "New product launch deep-dives with INCI analysis"
+    ],
+    "sentimentProfile": {
+      "overall": "positive",
+      "score": 0.71,
+      "drivers": {
+        "positive": [
+          "Biolumin-C and Retinol Clearing Oil deliver visible results",
+          "Science-backed brand positioning feels credible",
+          "Dynamic Skin Recovery SPF50 is best-in-class daily SPF"
+        ],
+        "negative": [
+          "Essential oils and fragrance in some formulas are a concern for reactive skin",
+          "Brand feels behind Face Reality and Environ on professional actives",
+          "Website lacks clinical evidence and comparison data"
+        ]
+      }
+    },
+    "recommendations": {
+      "paidMedia": "Invest in YouTube pre-roll and TikTok partnerships with cosmetic chemists and dermatologists who can speak to formulation science. Target Google Search for specific ingredient queries like 'niacinamide vitamin c serum' and 'retinol oil for acne' with educational landing pages.",
+      "crm": "Develop an ingredient education email series that positions key actives (BioLumin-C complex, retinol, salicylic acid) with clinical proof points. Segment this audience for early access to new innovation launches with behind-the-formulation content.",
+      "cro": "Add clinical data callouts and before/after galleries to treatment product PDPs. Build an ingredient glossary hub that cross-links to relevant products. Test surfacing full INCI lists and formulation philosophy content directly on product pages rather than burying it in blog posts."
+    },
+    "sampleSize": 4480,
+    "confidence": 0.86,
+    "topVerbatims": [
+      {
+        "text": "Solution in a little bottle. I\u2019ve been using it for a little while, probably not as constantly as I should - but I do see an improvement in my skin texture and appearance. Loving the results so far.",
+        "source": "Website Review",
+        "date": "2022-10-30",
+        "product": "breakout clearing liquid peel"
+      },
+      {
+        "text": "If I could give this a million stars I would! Nothing can beat my pores like this does. My face is smoother and healthier then ever!",
+        "source": "Website Review",
+        "date": "2023-06-10",
+        "product": "daily microfoliant exfoliator set (1 full-size + free travel)"
+      },
+      {
+        "text": "This product is so so good. I love a retinol and when I saw the brand was releasing one I was so excited. I noticed a great improvement in my skin the next night after using this product. My skin looked amazing. I can\u2019t wait to see the long term results!",
+        "source": "Website Review",
+        "date": "2022-12-14",
+        "product": "dynamic skin retinol serum"
+      }
+    ]
+  },
+  {
+    "id": "simplified-routine-seeker",
+    "name": "The Overwhelmed Simplifier",
+    "archetype": "Wants effective skincare without the complexity and looks to Dermalogica to just tell her what to use",
+    "avatar": "\ud83e\uddf4",
+    "demographics": {
+      "ageRange": "26-40",
+      "gender": "78% Female",
+      "location": "US nationwide, suburban and mid-size metros",
+      "income": "$55K-$95K",
+      "education": "College-educated, non-specialist in skincare"
+    },
+    "psychographics": {
+      "values": [
+        "Simplicity",
+        "Trustworthy guidance",
+        "Time efficiency",
+        "Reliable results without the research"
+      ],
+      "lifestyle": "Busy professional or parent, limited time for extensive skincare research, prefers curated bundles and kits over individual product selection, influenced by gift sets and starter kits",
+      "motivations": [
+        "Wants someone to build the routine for her",
+        "Attracted to Dermalogica's professional authority but intimidated by the product range",
+        "Responds well to kits, sets, and step-by-step regimen guides"
+      ]
+    },
+    "painPoints": [
+      "The Dermalogica website feels overwhelming with too many products and unclear navigation",
+      "Doesn't know how to layer products or which order to use them in",
+      "Frustrated that the skin quiz or Face Mapping doesn't narrow options enough",
+      "Hesitant to invest at premium prices without confidence she's choosing correctly"
+    ],
+    "purchaseBehavior": {
+      "aov": "$68",
+      "frequency": "Every 8-12 weeks, often buys kits or bundles",
+      "preferredProducts": [
+        "Discover Healthy Skin Kit",
+        "The Double Cleanse Set",
+        "Daily Microfoliant",
+        "Skin Smoothing Cream",
+        "Active Moist"
+      ],
+      "channel": "35% DTC website, 30% Ulta, 20% gifts/gifted, 15% Amazon"
+    },
+    "contentAffinity": [
+      "Step-by-step routine videos",
+      "AM/PM regimen guides",
+      "Kit and bundle recommendations",
+      "Quick skincare tips under 60 seconds"
+    ],
+    "sentimentProfile": {
+      "overall": "mixed",
+      "score": 0.58,
+      "drivers": {
+        "positive": [
+          "Kits and sets make entry easier",
+          "Double cleanse combo is a simple, effective starting point",
+          "Brand feels trustworthy and professional"
+        ],
+        "negative": [
+          "Website has too many products and is hard to navigate",
+          "Unsure which products overlap or are redundant",
+          "Customer service and international site experience are poor"
+        ]
+      }
+    },
+    "recommendations": {
+      "paidMedia": "Run Meta and Pinterest campaigns featuring 3-step routine carousels with clear AM/PM callouts. Target interest audiences in beauty, self-care, and gifting categories. Test kit-first creative against individual product ads to drive higher conversion rates.",
+      "crm": "Build an onboarding email flow for kit purchasers that introduces one additional product per email with a clear explanation of where it fits in the routine. Trigger a regimen expansion flow 6 weeks post-purchase with personalized upsell based on the kit purchased.",
+      "cro": "Redesign the quiz experience to output a complete 3-5 product regimen with a one-click bundle add-to-cart. Add routine builder functionality that visually shows AM/PM steps. Test reducing visible product count on category pages with smart filtering defaults."
+    },
+    "sampleSize": 3920,
+    "confidence": 0.81,
+    "topVerbatims": [
+      {
+        "text": "Love this product. You only need a little for it to really foam up and clean your face. It does a pretty good job removing make up and doesn\u2019t make my face feel greasy or dry.",
+        "source": "Website Review",
+        "date": "2025-06-20",
+        "product": "special cleansing gel - travel - subscription gift"
+      },
+      {
+        "text": "Incorporate this into your routine immediately, you won\u2019t regret it. Worth every penny, and you can get refills instead of repurchasing bottles to help the planet!",
+        "source": "Website Review",
+        "date": "2023-06-16",
+        "product": "first snow of the season bundle (seasonal edition canister + refill)"
+      },
+      {
+        "text": "First, I tried the small travel size and quickly went back for the bigger bottle. It makes your skin feel amazing and even the smell is soothing. I have one in my purse at all times.",
+        "source": "Website Review",
+        "date": "2017-11-28",
+        "product": "antioxidant hydramist"
+      }
+    ]
+  },
+  {
+    "id": "mature-skin-advocate",
+    "name": "The Age-Smart Realist",
+    "archetype": "Focused on graceful aging with realistic expectations, loyal to the AGE Smart line, and willing to invest in proven anti-aging results",
+    "avatar": "\u2728",
+    "demographics": {
+      "ageRange": "45-62",
+      "gender": "88% Female",
+      "location": "US suburban, Sun Belt and Northeast metros, some UK and Australia",
+      "income": "$95K-$175K",
+      "education": "College or graduate degree, established career or empty-nester"
+    },
+    "psychographics": {
+      "values": [
+        "Graceful aging",
+        "Proven results over marketing promises",
+        "Sun protection as non-negotiable",
+        "Quality over quantity in routine"
+      ],
+      "lifestyle": "Consistent skincare routine built over years, SPF is daily non-negotiable, values texture and firmness over wrinkle elimination, sees dermatologist annually, considers skincare an investment in long-term skin health",
+      "motivations": [
+        "Wants to maintain skin vitality and firmness, not reverse the clock",
+        "Values Dermalogica's mature and non-gimmicky brand positioning",
+        "Willing to pay premium for formulations that deliver cumulative results over time"
+      ]
+    },
+    "painPoints": [
+      "Concerned that some Dermalogica products are not formulated for menopause-related skin changes",
+      "Wants more targeted messaging for 45+ skin that doesn't feel patronizing or over-promise",
+      "Frustrated when anti-aging products cause sensitivity or irritation on thinning skin",
+      "Feels underrepresented in brand marketing which skews younger"
+    ],
+    "purchaseBehavior": {
+      "aov": "$128",
+      "frequency": "Every 5-6 weeks, highest replenishment rate of all segments",
+      "preferredProducts": [
+        "Dynamic Skin Recovery SPF50",
+        "Biolumin-C Serum",
+        "AGE Smart MultiVitamin Power Recovery Masque",
+        "Phyto Replenish Oil",
+        "Daily Microfoliant"
+      ],
+      "channel": "40% DTC website, 25% Professional/spa, 20% Nordstrom, 15% Dermstore"
+    },
+    "contentAffinity": [
+      "Dermatologist-led anti-aging education",
+      "Real customer stories from 45+ women",
+      "SPF and photoaging prevention content",
+      "Menopause and skin health resources"
+    ],
+    "sentimentProfile": {
+      "overall": "positive",
+      "score": 0.76,
+      "drivers": {
+        "positive": [
+          "Dynamic Skin Recovery SPF50 is a daily essential with real anti-aging benefits",
+          "AGE Smart line feels formulated for real concerns, not hype",
+          "Products are gentle enough for mature skin when chosen correctly"
+        ],
+        "negative": [
+          "Brand marketing skews young and doesn't represent 45+ customers well",
+          "Some products with active exfoliants are too harsh for thinning mature skin",
+          "Limited menopause-specific skincare guidance"
+        ]
+      }
+    },
+    "recommendations": {
+      "paidMedia": "Launch a dedicated 45+ campaign on Meta and YouTube featuring real customers in this age bracket with authentic testimonials. Target Google Search for queries like 'best SPF for aging skin' and 'menopause skincare routine' with educational content landing pages.",
+      "crm": "Create an AGE Smart lifecycle email series focused on seasonal regimen adjustments for mature skin. Develop menopause skincare content in partnership with dermatologists. Offer an annual skin health check-in email with personalized product refresh recommendations.",
+      "cro": "Build a dedicated AGE Smart landing page experience with age-appropriate imagery and copy. Add a skin concern filter for 'mature/aging skin' that surfaces the right products immediately. Test bundling Dynamic Skin Recovery SPF50 + Biolumin-C as a hero duo with a savings incentive."
+    },
+    "sampleSize": 2780,
+    "confidence": 0.83,
+    "topVerbatims": [
+      {
+        "text": "I really like this eye cream, the tinted cream covers dark circles well and you only need a tiny bit for both eyes. It's nice and light to use too and sinks in fast. The spf is a bonus too.",
+        "source": "Website Review",
+        "date": "2020-06-14",
+        "product": "total eye care with spf15"
+      },
+      {
+        "text": "I use this once a week to keep my pores clean. When I used it more frequently my Dermalogica aesthetician told me I was damaging my skin.",
+        "source": "Website Review",
+        "date": "2021-07-01",
+        "product": "warmth of the winter sun set (3 travel-size)"
+      },
+      {
+        "text": "Nothing better than start taking care of your skin from an early age and this is what this product is amazing for: preserve your skin\u2019s collagen! To me has been great to use it, doesn\u2019t have any smell and if you wish can be mixed with other products. Very good :ok_hand::skin-tone-3: Gifted by Dermal",
+        "source": "Website Review",
+        "date": "2024-04-05",
+        "product": "your moment of expertise set (6 full-size + 2 face tools + headband)"
+      }
     ]
   }
 ]

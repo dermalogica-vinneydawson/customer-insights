@@ -105,7 +105,7 @@ export default function TeamView() {
                 <p className={`text-sm ${c.text}`}>{theme.teamImplications[config.implKey]}</p>
               </div>
               {theme.topVerbatims[0] && (
-                <p className="text-xs italic text-text-secondary mt-2">"{theme.topVerbatims[0]}"</p>
+                <p className="text-xs italic text-text-secondary mt-2">"{typeof theme.topVerbatims[0] === 'object' ? theme.topVerbatims[0].text : theme.topVerbatims[0]}"</p>
               )}
             </Card>
           )

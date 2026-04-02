@@ -1,6 +1,6 @@
 import { AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis } from 'recharts'
 import { useData } from '../hooks/useData'
-import Card, { StatCard } from '../components/Card'
+import Card, { StatCard, DataSourceTag } from '../components/Card'
 
 export default function Sentiment() {
   const { data: sentiment } = useData('sentiment.json')
@@ -27,7 +27,10 @@ export default function Sentiment() {
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-2xl font-bold">Sentiment Analysis</h1>
+        <div className="flex items-center gap-3">
+          <h1 className="text-2xl font-bold">Sentiment Analysis</h1>
+          <DataSourceTag type="real" source="Yotpo + Scraped Reviews" />
+        </div>
         <p className="text-text-secondary mt-1">Customer sentiment tracked across all channels over time</p>
       </div>
 

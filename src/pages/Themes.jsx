@@ -1,5 +1,5 @@
 import { useData } from '../hooks/useData'
-import Card, { SentimentBadge } from '../components/Card'
+import Card, { SentimentBadge, DataSourceTag, SourceBadge } from '../components/Card'
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react'
 
 export default function Themes() {
@@ -38,7 +38,10 @@ export default function Themes() {
                 </div>
                 <div className="text-right flex-shrink-0 ml-4">
                   <p className="text-lg font-bold">{theme.mentionCount.toLocaleString()}</p>
-                  <p className="text-xs text-text-secondary">mentions</p>
+                  <div className="flex items-center gap-1 justify-end">
+                    <p className="text-xs text-text-secondary">mentions</p>
+                    <DataSourceTag type="ai" />
+                  </div>
                   <div className={`flex items-center gap-1 mt-1 justify-end ${trendColor}`}>
                     <TrendIcon size={14} />
                     <span className="text-xs font-medium">
@@ -64,19 +67,35 @@ export default function Themes() {
 
               {/* Verbatims */}
               <div className="mb-4">
-                <p className="text-xs font-semibold text-text-secondary uppercase tracking-wider mb-2">Top Quotes</p>
+                <div className="flex items-center gap-2 mb-2">
+                  <p className="text-xs font-semibold text-text-secondary uppercase tracking-wider">Top Quotes</p>
+                  <DataSourceTag type="real" source="Yotpo" />
+                </div>
                 <div className="grid grid-cols-3 gap-3">
-                  {theme.topVerbatims.map((v, i) => (
-                    <div key={i} className="bg-surface rounded-lg p-2.5 border border-border">
-                      <p className="text-xs italic leading-relaxed">"{v}"</p>
-                    </div>
-                  ))}
+                  {theme.topVerbatims.map((v, i) => {
+                    const isObj = typeof v === 'object'
+                    const text = isObj ? v.text : v
+                    return (
+                      <div key={i} className="bg-surface rounded-lg p-2.5 border border-border">
+                        <p className="text-xs italic leading-relaxed">"{text}"</p>
+                        {isObj && (
+                          <div className="flex items-center gap-1.5 mt-1.5 flex-wrap">
+                            <SourceBadge source={v.source} />
+                            {v.product && v.product !== 'nan' && <span className="text-[10px] text-text-secondary truncate">{v.product}</span>}
+                          </div>
+                        )}
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
 
               {/* Team implications */}
               <div>
-                <p className="text-xs font-semibold text-text-secondary uppercase tracking-wider mb-2">Team Implications</p>
+                <div className="flex items-center gap-2 mb-2">
+                  <p className="text-xs font-semibold text-text-secondary uppercase tracking-wider">Team Implications</p>
+                  <DataSourceTag type="ai" />
+                </div>
                 <div className="grid grid-cols-3 gap-3 text-xs">
                   <div className="bg-blue-50 rounded-lg p-2.5">
                     <p className="font-semibold text-blue-700 mb-0.5">Paid Media</p>

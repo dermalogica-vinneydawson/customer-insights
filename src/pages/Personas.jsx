@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
+import { Printer } from 'lucide-react'
 import { useData } from '../hooks/useData'
-import Card, { SentimentBadge } from '../components/Card'
+import Card, { SentimentBadge, DataSourceTag } from '../components/Card'
 
 export default function Personas() {
   const { data: personas } = useData('personas.json')
@@ -10,8 +11,16 @@ export default function Personas() {
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-2xl font-bold">Customer Personas</h1>
-        <p className="text-text-secondary mt-1">AI-identified customer archetypes from review, social, and support data</p>
+        <div className="flex items-center gap-3">
+          <h1 className="text-2xl font-bold">Customer Personas</h1>
+          <DataSourceTag type="ai" />
+        </div>
+        <div className="flex items-center justify-between mt-1">
+          <p className="text-text-secondary">AI-identified customer archetypes from review, social, and support data. Connect Claude API to regenerate from 209K+ source records.</p>
+          <button onClick={() => window.print()} className="print:hidden flex items-center gap-2 px-3 py-2 rounded-lg border border-border text-sm text-text-secondary hover:bg-gray-50 hover:text-text-primary transition-colors flex-shrink-0 ml-4">
+            <Printer size={16} /> Print All
+          </button>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 gap-6">
@@ -52,7 +61,7 @@ export default function Personas() {
                   {/* Top verbatim */}
                   <div className="mt-4 bg-surface rounded-lg p-3 border border-border">
                     <p className="text-xs font-medium text-text-secondary mb-1">Top Customer Quote</p>
-                    <p className="text-sm italic">"{p.topVerbatims[0]}"</p>
+                    <p className="text-sm italic">"{typeof p.topVerbatims[0] === 'object' ? p.topVerbatims[0].text : p.topVerbatims[0]}"</p>
                   </div>
                 </div>
               </div>

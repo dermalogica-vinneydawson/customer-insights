@@ -1,0 +1,53 @@
+{
+  "dateRange": "2026-03-03 to 2026-04-02",
+  "traffic": {
+    "totalSessions": 1586340,
+    "byChannel": [
+      { "channel": "Direct", "sessions": 378554, "pagesPerSession": 2.68 },
+      { "channel": "Paid Search", "sessions": 353858, "pagesPerSession": 1.13 },
+      { "channel": "Email", "sessions": 111830, "pagesPerSession": 1.14 },
+      { "channel": "Organic Search", "sessions": 106928, "pagesPerSession": 1.2 },
+      { "channel": "Referral", "sessions": 23949, "pagesPerSession": 1.18 },
+      { "channel": "Social", "sessions": 1375, "pagesPerSession": 1.08 }
+    ],
+    "byDevice": [
+      { "device": "Mobile", "sessions": 1281464, "avgEngagementSec": 30.75, "avgScrollDepth": 21.41 },
+      { "device": "PC", "sessions": 245235, "avgEngagementSec": 48.80, "avgScrollDepth": 34.23 },
+      { "device": "Tablet", "sessions": 59641, "avgEngagementSec": 58.50, "avgScrollDepth": 32.93 }
+    ]
+  },
+  "topPages": [
+    { "url": "/cart", "device": "Mobile", "source": "Direct", "avgScrollDepth": 41.78, "avgEngagementSec": 37.83, "pageViews": 88356 },
+    { "url": "/collections/best-sellers/products/phyto-nature-e2", "device": "Mobile", "source": "Instagram", "avgScrollDepth": 16.16, "avgEngagementSec": 10.24, "pageViews": 86896 },
+    { "url": "/collections/best-sellers/products/daily-microfoliant", "device": "Mobile", "source": "Instagram", "avgScrollDepth": 16.63, "avgEngagementSec": 7.44, "pageViews": 64980 },
+    { "url": "/pages/search-results-page", "device": "Mobile", "source": "Direct", "avgScrollDepth": 35.21, "avgEngagementSec": 11.46, "pageViews": 63534 },
+    { "url": "/collections/best-sellers", "device": "Mobile", "source": "Google", "avgScrollDepth": 17.49, "avgEngagementSec": 13.85, "pageViews": 54848 },
+    { "url": "/", "device": "Mobile", "source": "Direct", "avgScrollDepth": 17.01, "avgEngagementSec": 8.89, "pageViews": 41352 },
+    { "url": "/collections/skin-kits-and-sets", "device": "Mobile", "source": "Google", "avgScrollDepth": 5.80, "avgEngagementSec": 2.75, "pageViews": 37492 },
+    { "url": "/pages/face-mapping", "device": "Mobile", "source": "Direct", "avgScrollDepth": 25.54, "avgEngagementSec": 18.92, "pageViews": 34446 }
+  ],
+  "frictionPoints": [
+    { "url": "/collections/best-sellers", "deadClicks": 1257, "rageClicks": 24, "quickbackClicks": 23221, "clickErrors": 31217 },
+    { "url": "/", "deadClicks": 1204, "rageClicks": 30, "quickbackClicks": 16960, "clickErrors": 20747 },
+    { "url": "/cart", "deadClicks": 2198, "rageClicks": 40, "quickbackClicks": 17598, "clickErrors": 6882 },
+    { "url": "/pages/search-results-page", "deadClicks": 849, "rageClicks": 4, "quickbackClicks": 15061, "clickErrors": 2730 },
+    { "url": "/account", "deadClicks": 2407, "rageClicks": 26, "quickbackClicks": 11218, "clickErrors": 1202 },
+    { "url": "/collections/best-sellers/products/phyto-nature-e2", "deadClicks": 222, "rageClicks": 5, "quickbackClicks": 1164, "clickErrors": 11892 },
+    { "url": "/account/login", "deadClicks": 1246, "rageClicks": 9, "quickbackClicks": 2436, "clickErrors": 8229 },
+    { "url": "/products/clarifying-bacne-spray", "deadClicks": 127, "rageClicks": 0, "quickbackClicks": 821, "clickErrors": 8281 },
+    { "url": "/collections/skin-treatments", "deadClicks": 280, "rageClicks": 1, "quickbackClicks": 5175, "clickErrors": 3223 },
+    { "url": "/pages/rewards/", "deadClicks": 3588, "rageClicks": 49, "quickbackClicks": 3827, "clickErrors": 990 }
+  ],
+  "insights": [
+    "81% of traffic is mobile but scroll depth is only 21% vs 34% on desktop — mobile experience needs optimization.",
+    "Paid Search drives 354K sessions but only 1.13 pages/session — landing page experience may not be sticky enough.",
+    "Instagram traffic to Phyto Nature E2 has only 16% scroll depth and 10s engagement — users bounce quickly from IG ads.",
+    "Rewards page has the highest dead clicks (3,588) and rage clicks (49) — the rewards/loyalty experience is frustrating users.",
+    "Cart page has 2,198 dead clicks and 40 rage clicks — checkout friction is a conversion blocker.",
+    "Best-sellers collection has 23,221 quickback clicks — users land, leave, and come back. Decision paralysis on product selection.",
+    "Account/login has 8,229 click errors — sign-in flow is causing frustration.",
+    "Skin kits & sets page has only 5.8% scroll depth and 2.75s engagement — users aren't finding what they need.",
+    "Direct traffic has the highest pages/session (2.68) — returning/loyal customers browse more.",
+    "Face Mapping page has strong engagement (18.9s, 25.5% scroll) — this tool is resonating with customers."
+  ]
+}

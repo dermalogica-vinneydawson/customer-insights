@@ -31,7 +31,7 @@ export default function Overview() {
     <div>
       <div className="mb-8">
         <h1 className="text-2xl font-bold">Customer Insights Overview</h1>
-        <p className="text-text-secondary mt-1">AI-generated insights from 22,360 customer touchpoints across 5 channels</p>
+        <p className="text-text-secondary mt-1">AI-generated insights from {sentiment.overall.totalMentions.toLocaleString()} customer touchpoints across {sentiment.bySource.length} channels</p>
       </div>
 
       {/* Key metrics */}

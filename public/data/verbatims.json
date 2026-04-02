@@ -1,22 +1,252 @@
 [
-  { "id": 1, "text": "I always check the ingredient list before buying anything. If I can't understand what's in it, I won't use it.", "source": "Website Review", "sentiment": "positive", "score": 0.82, "theme": "ingredient-transparency", "persona": "ingredient-conscious", "date": "2026-02-14" },
-  { "id": 2, "text": "Love the products but they're so expensive. I only buy during sales.", "source": "Reddit", "sentiment": "mixed", "score": 0.45, "theme": "pricing-value", "persona": "deal-seeker", "date": "2026-03-02" },
-  { "id": 3, "text": "I don't have time for a 10-step routine. Just tell me the 3 things I need and I'll buy them.", "source": "Google Review", "sentiment": "negative", "score": 0.35, "theme": "routine-complexity", "persona": "routine-simplifier", "date": "2026-01-18" },
-  { "id": 4, "text": "My skin has completely transformed in 3 months. I get compliments all the time now.", "source": "Website Review", "sentiment": "positive", "score": 0.95, "theme": "product-results", "persona": "skin-concern-solver", "date": "2026-03-10" },
-  { "id": 5, "text": "Every other brand has a loyalty program. Why doesn't this one?", "source": "Social Media", "sentiment": "negative", "score": 0.22, "theme": "loyalty-recognition", "persona": "brand-loyalist", "date": "2026-02-28" },
-  { "id": 6, "text": "My esthetician introduced me to this brand and I've never looked back.", "source": "Google Review", "sentiment": "positive", "score": 0.92, "theme": "professional-trust", "persona": "brand-loyalist", "date": "2026-01-05" },
-  { "id": 7, "text": "Shipping took 10 days. That's way too long in 2025.", "source": "Support Ticket", "sentiment": "negative", "score": 0.15, "theme": "shipping-experience", "persona": "deal-seeker", "date": "2025-12-20" },
-  { "id": 8, "text": "The retinol serum is worth every penny. Real visible results.", "source": "Website Review", "sentiment": "positive", "score": 0.90, "theme": "product-results", "persona": "ingredient-conscious", "date": "2026-02-08" },
-  { "id": 9, "text": "I've been using this brand for 15 years and my skin has never looked better. I recommend it to everyone.", "source": "Website Review", "sentiment": "positive", "score": 0.96, "theme": "professional-trust", "persona": "brand-loyalist", "date": "2026-03-15" },
-  { "id": 10, "text": "Wish there was a rewards program. I've been a customer for years and get nothing for my loyalty.", "source": "Reddit", "sentiment": "negative", "score": 0.18, "theme": "loyalty-recognition", "persona": "brand-loyalist", "date": "2026-01-22" },
-  { "id": 11, "text": "Bought the kit because it took the guesswork out. Best decision I made for my skin.", "source": "Website Review", "sentiment": "positive", "score": 0.88, "theme": "routine-complexity", "persona": "routine-simplifier", "date": "2026-02-19" },
-  { "id": 12, "text": "Saw a TikTok review and had to try it. Waited for the 20% off sale though.", "source": "Social Media", "sentiment": "mixed", "score": 0.50, "theme": "pricing-value", "persona": "deal-seeker", "date": "2026-03-05" },
-  { "id": 13, "text": "The fact that skin therapists use these products gives me so much confidence.", "source": "Google Review", "sentiment": "positive", "score": 0.89, "theme": "professional-trust", "persona": "skin-concern-solver", "date": "2026-01-30" },
-  { "id": 14, "text": "Product arrived with the box crushed and serum leaking. Very disappointing.", "source": "Support Ticket", "sentiment": "negative", "score": 0.08, "theme": "shipping-experience", "persona": "routine-simplifier", "date": "2026-02-25" },
-  { "id": 15, "text": "I switched from a competitor because they changed their formula without telling anyone.", "source": "Reddit", "sentiment": "positive", "score": 0.72, "theme": "ingredient-transparency", "persona": "ingredient-conscious", "date": "2026-03-12" },
-  { "id": 16, "text": "A points system or VIP tier would make me buy exclusively from the brand.", "source": "Social Media", "sentiment": "mixed", "score": 0.40, "theme": "loyalty-recognition", "persona": "deal-seeker", "date": "2026-02-02" },
-  { "id": 17, "text": "My esthetician recommended this and it's the first thing that actually worked for my dark spots.", "source": "Website Review", "sentiment": "positive", "score": 0.93, "theme": "product-results", "persona": "skin-concern-solver", "date": "2026-01-14" },
-  { "id": 18, "text": "The website has SO many products. I just want someone to tell me what to use.", "source": "Reddit", "sentiment": "negative", "score": 0.28, "theme": "routine-complexity", "persona": "routine-simplifier", "date": "2026-03-08" },
-  { "id": 19, "text": "Was devastated when they discontinued my favorite moisturizer. Please bring it back!", "source": "Social Media", "sentiment": "negative", "score": 0.12, "theme": "loyalty-recognition", "persona": "brand-loyalist", "date": "2026-02-11" },
-  { "id": 20, "text": "More brands should be upfront about concentrations like this one is.", "source": "Reddit", "sentiment": "positive", "score": 0.85, "theme": "ingredient-transparency", "persona": "ingredient-conscious", "date": "2026-03-20" }
+  {
+    "id": 1,
+    "text": "Free sample given tried and liked, so got some more",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.81,
+    "theme": "",
+    "persona": "",
+    "date": "2020-07-21"
+  },
+  {
+    "id": 2,
+    "text": "This has a very lovely smell to it. Unfortunately I haven&#x27;t been able to test the sunscreen on it (been indoors since March) but have used it as a moisturizer. I&#x27;m very happy that it doesn&#x27;t leave that lingering white residue from other sunscreens. Overall it&#x27;s a great moisturizer and I&#x27;m impressed with it. I&#x27;m sure it makes a great sunscreen protector too.",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.99,
+    "theme": "",
+    "persona": "",
+    "date": "2020-05-09"
+  },
+  {
+    "id": 3,
+    "text": "Brilliant cleanser that is gentle enough on the skin but really helps to tackle breakouts",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.98,
+    "theme": "",
+    "persona": "",
+    "date": "2021-05-21"
+  },
+  {
+    "id": 4,
+    "text": "I just love this precleansing balm! it removes makeup and sunscreen like a champ and doesn&#x27;t leave my breakout prone skin oily or cause any kind of acne.",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.99,
+    "theme": "",
+    "persona": "",
+    "date": "2021-07-02"
+  },
+  {
+    "id": 5,
+    "text": "After using this my skin feels grrreeeaaaat! Thanks Dermalogica.",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.99,
+    "theme": "",
+    "persona": "",
+    "date": "2011-09-30"
+  },
+  {
+    "id": 6,
+    "text": "I use this under my foundation for a smooth, fabulous and flawless look. Great for nighttime dress up looks as it adds a bit of light reflective shine and glamour. Use it for casual daytime wear just to give a smoother skin look of no make up at all. Really, really like this product.",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.98,
+    "theme": "",
+    "persona": "",
+    "date": "2019-05-03"
+  },
+  {
+    "id": 7,
+    "text": "Let me start by saying that this serum works really great. I started noticing awesome results after a week. I highly recommend this serum for anyone that wants to try it out. I give this a five star rating absolutely love it. Gifted by dermalogica",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.99,
+    "theme": "",
+    "persona": "",
+    "date": "2025-07-21"
+  },
+  {
+    "id": 8,
+    "text": "Shipping and packing is amazing on time and if there is any issues the customer service is great with handling your order .",
+    "source": "Site Review",
+    "sentiment": "positive",
+    "score": 0.85,
+    "theme": "",
+    "persona": "",
+    "date": "2022-06-18"
+  },
+  {
+    "id": 9,
+    "text": "Great moisturizer! It would be even better if it had sun protection as well.",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.94,
+    "theme": "",
+    "persona": "",
+    "date": "2020-10-29"
+  },
+  {
+    "id": 10,
+    "text": "Gifted by Dermalogica Love love love. A moisturizer that makes me skin silky smooth feeling and an sunscreen on top of that. Winner. I usually go for mineral sunscreens but I\u2019m really love it one.add vitamin c and you have glowing skin. I highly recommend you check it out.",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 1.0,
+    "theme": "",
+    "persona": "",
+    "date": "2021-12-28"
+  },
+  {
+    "id": 11,
+    "text": "Not too heavy or too light! Perfect amount of moisture.",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.98,
+    "theme": "",
+    "persona": "",
+    "date": "2025-10-06"
+  },
+  {
+    "id": 12,
+    "text": "I love this product it keeps me from having puffy eyes!",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.99,
+    "theme": "",
+    "persona": "",
+    "date": "2023-01-16"
+  },
+  {
+    "id": 13,
+    "text": "It\u2019s a pretty standard cleanser. Foams well, hardly any sent. I think it works about as well as any other cleanser I\u2019ve purchased.",
+    "source": "Website Review",
+    "sentiment": "negative",
+    "score": 0.05,
+    "theme": "",
+    "persona": "",
+    "date": "2023-07-04"
+  },
+  {
+    "id": 14,
+    "text": "I like the cleanser. It goes on nice, feels great when you wash it off, and makes me feel clean afterwards. But I&#x27;ve been using it for a month and have really seen no huge difference. I also switch on and off with the resurfacing cleanser, to wich i would give the same review. good cleansers, no major changes.",
+    "source": "Website Review",
+    "sentiment": "negative",
+    "score": 0.07,
+    "theme": "",
+    "persona": "",
+    "date": "2011-06-08"
+  },
+  {
+    "id": 15,
+    "text": "Since receiving Melting Moisture Masque, I have massaged a pea size amount into my skin according to your directions, and cannot see any difference in the appearance of my skin. The texture reminds me of vaseline, as it just seems to lay on the surface of my skin, without seeping into it. A costly experiment, and I am greatly disappointed. Thanks for listening.",
+    "source": "Website Review",
+    "sentiment": "negative",
+    "score": 0.05,
+    "theme": "",
+    "persona": "",
+    "date": "2023-05-24"
+  },
+  {
+    "id": 16,
+    "text": "Glides on easy &amp; feels light on skin, so far I like it. But the cap to dispense serum is different &amp; does not dispense easily.",
+    "source": "Website Review",
+    "sentiment": "negative",
+    "score": 0.32,
+    "theme": "",
+    "persona": "",
+    "date": "2023-10-04"
+  },
+  {
+    "id": 17,
+    "text": "My skin normally breaks out around that time of the month but since starting this product I have seen numerous breakouts. I stopped using this and the breakouts went away.",
+    "source": "Website Review",
+    "sentiment": "negative",
+    "score": 0.02,
+    "theme": "",
+    "persona": "",
+    "date": "2019-03-20"
+  },
+  {
+    "id": 18,
+    "text": "Maybe because it\u2019s only been two weeks, but have not seen any changes goid or bad",
+    "source": "Website Review",
+    "sentiment": "negative",
+    "score": 0.04,
+    "theme": "",
+    "persona": "",
+    "date": "2021-07-16"
+  },
+  {
+    "id": 19,
+    "text": "I have been using the breakout clearing booster and the fizzing blackhead mask together. I honestly love the packaging of both, it&#x27;s very nice looking! As far as the actual products, I thought the breakout clearing booster was okay. I&#x27;ve found that using this product as a spot treatment works best for me. I put it on a troubled spot at night before bed and the next morning the spot is le",
+    "source": "Website Review",
+    "sentiment": "negative",
+    "score": 0.34,
+    "theme": "",
+    "persona": "",
+    "date": "2019-04-08"
+  },
+  {
+    "id": 20,
+    "text": "I purchased some products to take advantage of a promotional offer. Upon checkout the offer code was not accepted. I emailed customer services to advise them of the issue but no follow up was received. I assumed the promotional products would be added to my order for delivery. But no. I only received the products I paid for. Products are good don&#x27;t get me wrong. But the set up of a promotion ",
+    "source": "Website Review",
+    "sentiment": "negative",
+    "score": 0.02,
+    "theme": "",
+    "persona": "",
+    "date": "2020-12-29"
+  },
+  {
+    "id": 21,
+    "text": "I have received this product #giftedbydermalogica to test in exchange for my honest opinion. The size of this product was bigger than I expected. It was easy to use. It made my skin softer and I didn\u2019t break out from using it which is very good for me. Definitely a keeper.",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.75,
+    "theme": "",
+    "persona": "",
+    "date": "2022-07-29"
+  },
+  {
+    "id": 22,
+    "text": "Cooling on my skin doesn&#x27;t dry it out, I feel it soaks up all the excess oil. Reduction in breakouts and scaring",
+    "source": "Website Review",
+    "sentiment": "mixed",
+    "score": 0.48,
+    "theme": "",
+    "persona": "",
+    "date": "2021-11-12"
+  },
+  {
+    "id": 23,
+    "text": "I feel like it may be soon to leave a review. However I can see a difference I also accidentally deleted my before photo :weary: but so far overall I love it.",
+    "source": "Website Review",
+    "sentiment": "mixed",
+    "score": 0.58,
+    "theme": "",
+    "persona": "",
+    "date": "2022-01-23"
+  },
+  {
+    "id": 24,
+    "text": "This blends well with jo white residue and work\u2019s amazingly. I work outside and I am very fair skinned and I haven\u2019t got sunburned yet!!!",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.7,
+    "theme": "",
+    "persona": "",
+    "date": "2021-08-09"
+  },
+  {
+    "id": 25,
+    "text": "Great product but a bit too pricy and as such not accessible to all, but all in all great product, smooth and goes on like silk",
+    "source": "Website Review",
+    "sentiment": "positive",
+    "score": 0.64,
+    "theme": "",
+    "persona": "",
+    "date": "2022-07-16"
+  }
 ]

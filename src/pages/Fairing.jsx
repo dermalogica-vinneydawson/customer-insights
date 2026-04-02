@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
 import { useData } from '../hooks/useData'
-import Card, { StatCard } from '../components/Card'
+import Card, { StatCard, DataSourceTag } from '../components/Card'
 
 const COLORS = ['#4c6ef5', '#748ffc', '#91a7ff', '#bac8ff', '#40c057', '#fab005', '#fa5252', '#868e96']
 
@@ -25,7 +25,10 @@ export default function Fairing() {
             <span className="text-lg">📋</span>
           </div>
           <div>
-            <h1 className="text-2xl font-bold">Fairing Post-Purchase Surveys</h1>
+            <div className="flex items-center gap-3">
+              <h1 className="text-2xl font-bold">Fairing Post-Purchase Surveys</h1>
+              <DataSourceTag type="real" source="Fairing Export" />
+            </div>
             <p className="text-text-secondary">Self-reported customer insights collected at the moment of purchase</p>
           </div>
         </div>

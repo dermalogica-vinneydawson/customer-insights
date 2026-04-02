@@ -40,14 +40,45 @@ export function SentimentBadge({ sentiment, score }) {
 export function SourceBadge({ source }) {
   const colors = {
     'Website Review': 'bg-blue-50 text-blue-700',
+    'Site Review': 'bg-blue-50 text-blue-600',
     'Google Review': 'bg-amber-50 text-amber-700',
     'Reddit': 'bg-orange-50 text-orange-700',
     'Social Media': 'bg-purple-50 text-purple-700',
     'Support Ticket': 'bg-red-50 text-red-700',
+    'Fairing Survey': 'bg-indigo-50 text-indigo-700',
   }
   return (
     <span className={`inline-flex px-2 py-0.5 rounded text-xs font-medium ${colors[source] || 'bg-gray-50 text-gray-700'}`}>
       {source}
+    </span>
+  )
+}
+
+export function DataSourceTag({ type = 'real', source }) {
+  if (type === 'real') {
+    return (
+      <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-medium bg-green-50 text-green-700 border border-green-200" title={`Verified data from ${source || 'connected data source'}`}>
+        <span className="w-1.5 h-1.5 bg-green-500 rounded-full" />
+        {source || 'Verified'}
+      </span>
+    )
+  }
+  return (
+    <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-medium bg-amber-50 text-amber-700 border border-amber-200" title="AI-inferred from analysis of real customer data. Connect Claude API to regenerate from source data.">
+      <span className="w-1.5 h-1.5 bg-amber-500 rounded-full" />
+      AI-Inferred
+    </span>
+  )
+}
+
+export function Tooltip({ children, text }) {
+  return (
+    <span className="relative group cursor-help">
+      {children}
+      <span className="invisible group-hover:visible absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-1.5 px-2.5 py-1.5 rounded-lg bg-gray-900 text-white text-xs leading-relaxed whitespace-normal w-56 text-center shadow-lg pointer-events-none">
+        {text}
+        <span className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900" />
+      </span>
     </span>
   )
 }

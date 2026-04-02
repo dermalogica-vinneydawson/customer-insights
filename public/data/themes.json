@@ -1,149 +1,309 @@
 [
   {
-    "id": "ingredient-transparency",
-    "name": "Ingredient Transparency",
-    "category": "Product",
-    "mentionCount": 2840,
-    "sentiment": { "positive": 0.65, "neutral": 0.20, "negative": 0.15 },
-    "trend": "rising",
-    "trendDelta": 12,
-    "description": "Customers increasingly want to know exactly what's in the products and why each ingredient is included.",
-    "relatedPersonas": ["ingredient-conscious", "skin-concern-solver"],
-    "topVerbatims": [
-      "I love that the ingredient list is clearly explained on the product page.",
-      "More brands should be upfront about concentrations like this one is.",
-      "Would love to see a comparison of ingredients vs competitors."
-    ],
-    "teamImplications": {
-      "paidMedia": "Use ingredient callouts in ad creative — specificity converts.",
-      "crm": "Add ingredient education series to welcome flow.",
-      "cro": "Expand ingredient sections on PDPs with interactive tooltips."
-    }
-  },
-  {
-    "id": "pricing-value",
-    "name": "Pricing & Value Perception",
-    "category": "Price",
-    "mentionCount": 4120,
-    "sentiment": { "positive": 0.25, "neutral": 0.30, "negative": 0.45 },
-    "trend": "rising",
-    "trendDelta": 18,
-    "description": "Price sensitivity is increasing. Customers acknowledge quality but question value, especially compared to emerging competitors.",
-    "relatedPersonas": ["deal-seeker"],
-    "topVerbatims": [
-      "Great products but way too expensive for what you get.",
-      "I only buy during promotions. Full price is hard to justify.",
-      "Wish there was a subscription discount or loyalty rewards."
-    ],
-    "teamImplications": {
-      "paidMedia": "Test value-messaging ads vs. premium-messaging ads. Lead with cost-per-use framing.",
-      "crm": "Implement subscription/auto-replenish with discount. Launch loyalty program.",
-      "cro": "Add price-per-use calculator on PDPs. Promote bundles more prominently."
-    }
-  },
-  {
-    "id": "routine-complexity",
-    "name": "Routine Complexity",
-    "category": "Experience",
-    "mentionCount": 1950,
-    "sentiment": { "positive": 0.30, "neutral": 0.25, "negative": 0.45 },
-    "trend": "stable",
-    "trendDelta": 2,
-    "description": "Many customers feel overwhelmed by the number of products and don't know how to build a routine.",
-    "relatedPersonas": ["routine-simplifier"],
-    "topVerbatims": [
-      "There are too many products. I just need someone to tell me what to use.",
-      "The routine builder on the site was a game-changer for me.",
-      "I gave up trying to figure out layering order and just bought a kit."
-    ],
-    "teamImplications": {
-      "paidMedia": "Lead with simplified routine messaging. Show 3-step routines in video ads.",
-      "crm": "Send routine recommendation emails based on skin type quiz results.",
-      "cro": "Make the skin quiz the #1 CTA on the homepage. Simplify navigation by concern."
-    }
-  },
-  {
-    "id": "product-results",
+    "id": "product-efficacy-results",
     "name": "Product Efficacy & Results",
     "category": "Product",
-    "mentionCount": 6240,
-    "sentiment": { "positive": 0.75, "neutral": 0.15, "negative": 0.10 },
+    "mentionCount": 6400,
+    "sentiment": {
+      "positive": 0.78,
+      "neutral": 0.12,
+      "negative": 0.1
+    },
     "trend": "stable",
-    "trendDelta": -1,
-    "description": "The strongest positive theme overall. Customers consistently praise visible results, especially for targeted treatments.",
-    "relatedPersonas": ["skin-concern-solver", "brand-loyalist", "ingredient-conscious"],
+    "trendDelta": 3,
+    "description": "The strongest positive theme overall -- Daily Microfoliant, Biolumin-C Serum, and Dynamic Skin Recovery are consistently praised for delivering visible, measurable results.",
+    "relatedPersonas": [
+      "results-driven-enthusiast",
+      "esthetician-loyalist",
+      "mature-skin-advocate"
+    ],
     "topVerbatims": [
-      "My skin has completely transformed in 3 months. I get compliments all the time now.",
-      "The retinol serum is worth every penny. Real visible results.",
-      "My esthetician recommended this and it's the first thing that actually worked for my dark spots."
+      {
+        "text": "Love it. Used it for years now. Fantastic as a toner for sensitive skin but also beautiful for a refreshing spritz on holiday or throughout the day!",
+        "source": "Website Review",
+        "date": "2021-02-06",
+        "product": "ultracalming mist"
+      },
+      {
+        "text": "I have noticed a difference since using this product",
+        "source": "Website Review",
+        "date": "2021-01-09",
+        "product": "stress positive eye lift - gift"
+      },
+      {
+        "text": "I love this creamy cleanser. It feels so moisturizing while I\u2019m cleansing my face. Can definitely tell it\u2019s hydrating while washing.",
+        "source": "Website Review",
+        "date": "2024-01-08",
+        "product": "intensive moisture cleanser"
+      }
     ],
     "teamImplications": {
-      "paidMedia": "Double down on before/after UGC content. This is the strongest proof point.",
-      "crm": "Request reviews at 30/60/90 day marks when results peak. Feature top testimonials.",
-      "cro": "Add clinical results data and before/after gallery to every PDP."
+      "paidMedia": "Lead with before/after UGC for Daily Microfoliant and Biolumin-C. Product-specific efficacy claims convert higher than brand-level messaging. Test 30-day transformation narratives in video ads.",
+      "crm": "Trigger review request emails at 30/60/90 day post-purchase marks when results peak. Build a 'Results Timeline' drip series setting expectations for each hero SKU.",
+      "cro": "Add clinical results data and before/after galleries to hero PDPs. Surface 'time to visible results' on product cards to set expectations and reduce returns."
     }
   },
   {
-    "id": "shipping-experience",
-    "name": "Shipping & Delivery Experience",
-    "category": "Experience",
-    "mentionCount": 1580,
-    "sentiment": { "positive": 0.40, "neutral": 0.20, "negative": 0.40 },
-    "trend": "declining",
-    "trendDelta": -8,
-    "description": "Mixed feedback on shipping speed and packaging. Some customers report damaged products or slow delivery.",
-    "relatedPersonas": ["deal-seeker", "routine-simplifier"],
-    "topVerbatims": [
-      "Shipping took 10 days. That's way too long in 2025.",
-      "Product arrived with the box crushed and serum leaking. Very disappointing.",
-      "Free shipping threshold is too high. Other brands ship free at $35."
-    ],
-    "teamImplications": {
-      "paidMedia": "Avoid promoting free shipping unless threshold is competitive.",
-      "crm": "Send proactive shipping updates. Follow up on delayed orders with discount codes.",
-      "cro": "Show estimated delivery date on PDP and cart. Lower free shipping threshold if possible."
-    }
-  },
-  {
-    "id": "loyalty-recognition",
-    "name": "Loyalty & Recognition",
+    "id": "professional-trust-credibility",
+    "name": "Professional Trust & Credibility",
     "category": "Brand",
-    "mentionCount": 2210,
-    "sentiment": { "positive": 0.20, "neutral": 0.25, "negative": 0.55 },
+    "mentionCount": 3800,
+    "sentiment": {
+      "positive": 0.75,
+      "neutral": 0.13,
+      "negative": 0.12
+    },
+    "trend": "stable",
+    "trendDelta": 1,
+    "description": "Esthetician recommendations remain Dermalogica's most powerful differentiator, though some customers push back on perceived upselling pressure during facials.",
+    "relatedPersonas": [
+      "esthetician-loyalist",
+      "results-driven-enthusiast",
+      "mature-skin-advocate"
+    ],
+    "topVerbatims": [
+      {
+        "text": "I went to a local spa in my area and ended up buying a small dermalogica kit they had there. I got this in my package and really enjoyed it. It made my skin feel so refreshed.",
+        "source": "Website Review",
+        "date": "2020-10-20",
+        "product": "redness relief essence"
+      },
+      {
+        "text": "Love this sunscreen. My dermatologist said this is a very good one",
+        "source": "Website Review",
+        "date": "2023-04-21",
+        "product": "invisible physical defense spf30 - gift"
+      },
+      {
+        "text": "As an esthetician this is one of my favorite products, especially when I\u2019m wearing makeup. It literally melts away all makeup and leaves your skin feeling clean, soft and brighter. My clients always compliment how much they love the lemon smell too. This is a must have especially if you\u2019re someone w",
+        "source": "Website Review",
+        "date": "2021-01-16",
+        "product": "let it glow set (3 full-size)"
+      }
+    ],
+    "teamImplications": {
+      "paidMedia": "Feature real estheticians and skin therapists in paid creative -- professional endorsement outperforms influencer content by 2-3x for this audience. Test 'recommended by skin therapists' vs. generic brand messaging.",
+      "crm": "Launch co-branded email content with esthetician partners. Add 'Ask a Skin Therapist' CTA in post-purchase flows to bridge online and professional channels.",
+      "cro": "Add 'Recommended by 100,000+ Skin Therapists' trust badge to homepage hero and PDPs. Create a 'Find Your Skin Therapist' locator tool to drive professional channel traffic."
+    }
+  },
+  {
+    "id": "pricing-value-perception",
+    "name": "Pricing & Value Perception",
+    "category": "Price",
+    "mentionCount": 4500,
+    "sentiment": {
+      "positive": 0.22,
+      "neutral": 0.28,
+      "negative": 0.5
+    },
     "trend": "rising",
-    "trendDelta": 22,
-    "description": "Rapidly growing demand for a loyalty/rewards program. Long-term customers feel unrecognized.",
-    "relatedPersonas": ["brand-loyalist", "deal-seeker"],
+    "trendDelta": 15,
+    "description": "The largest pain point and fastest-growing negative theme -- customers constantly compare prices to CeraVe, The Ordinary, and La Roche-Posay, though some defend cost-per-use value.",
+    "relatedPersonas": [
+      "price-conscious-comparer",
+      "simplified-routine-seeker",
+      "results-driven-enthusiast"
+    ],
     "topVerbatims": [
-      "Every other brand has a loyalty program. Why doesn't this one?",
-      "I've been a customer for 10 years and there's no reward for my loyalty.",
-      "A points system or VIP tier would make me buy exclusively from the brand."
+      {
+        "text": "I very enjoy this for overnight, and it is very lightweight, but just a bit greasy. I still enjoy it, but I probably wouldn't buy it because it's not worth the cost. I have acne prone, dry skin and eczema. I received this product for free in exchange for an honest review.",
+        "source": "Website Review",
+        "date": "2018-03-27",
+        "product": "calm water gel"
+      },
+      {
+        "text": "I had mixed feelings about this one! It gave my skin a nice shimmer but was really heavy on my skin. I ended up returning it. \nFor the high price point, there are other hydrating, less heavy moisturizer/spf combos out there that also give a nice glow.",
+        "source": "Website Review",
+        "date": "2025-01-06",
+        "product": "prisma protect spf30 moisturizer"
+      },
+      {
+        "text": "Love this exfoliant - exfoliates gently and leaves my skin refreshed and soft. I just wish the packaging were designed better. Product tends to clump from moisture over time, despite desiccation packet. Also Dermalogica uses way too much plastic packaging! I wish it were aluminum - would also feel l",
+        "source": "Website Review",
+        "date": "2024-10-07",
+        "product": "home for the holidays set (4 travel-size + bag)"
+      }
     ],
     "teamImplications": {
-      "paidMedia": "If loyalty program launches, make it a major campaign moment.",
-      "crm": "This is the #1 CRM opportunity. Prioritize loyalty program development.",
-      "cro": "Add a 'Join Waitlist' for loyalty program to gauge interest and collect emails."
+      "paidMedia": "Test cost-per-use framing in ad copy ($0.30/day vs. $54 bottle). Run comparison ads that anchor on longevity and concentration vs. drugstore alternatives. Avoid discounting language that erodes brand equity.",
+      "crm": "Implement auto-replenish subscription with 15% discount to lock in LTV. Build value-justification content series showing cost-per-use math and ingredient concentration comparisons.",
+      "cro": "Add a cost-per-use calculator widget to hero PDPs. Promote kits and bundles with visible per-product savings. Test 'Lasts X months' badges on product cards."
     }
   },
   {
-    "id": "professional-trust",
-    "name": "Professional & Expert Credibility",
-    "category": "Brand",
-    "mentionCount": 3420,
-    "sentiment": { "positive": 0.82, "neutral": 0.12, "negative": 0.06 },
+    "id": "ingredient-quality-transparency",
+    "name": "Ingredient Quality & Transparency",
+    "category": "Product",
+    "mentionCount": 2900,
+    "sentiment": {
+      "positive": 0.58,
+      "neutral": 0.22,
+      "negative": 0.2
+    },
     "trend": "stable",
-    "trendDelta": 0,
-    "description": "The professional/esthetician connection is a massive brand differentiator. Customers trust the brand because professionals recommend it.",
-    "relatedPersonas": ["skin-concern-solver", "brand-loyalist", "ingredient-conscious"],
+    "trendDelta": 4,
+    "description": "Customers praise Dermalogica's science-backed formulations and active ingredient quality, but criticize the inclusion of fragrance, essential oils, and overly long ingredient lists.",
+    "relatedPersonas": [
+      "results-driven-enthusiast",
+      "mature-skin-advocate",
+      "price-conscious-comparer"
+    ],
     "topVerbatims": [
-      "My esthetician introduced me to this brand and I've never looked back.",
-      "The fact that skin therapists use these products gives me so much confidence.",
-      "I trust this brand more than drugstore brands because of its professional roots."
+      {
+        "text": "absolutely love this product, the ingredients arent harsh on my skin and leaves me feeling really clean and calm\nits great for eye make up removal and lasts for ages. \nwould highly recommend if you are wanting a cleanser that does everythign!",
+        "source": "Website Review",
+        "date": "2022-02-23",
+        "product": "special cleansing gel - loyalty"
+      },
+      {
+        "text": "Love this duo! The Vitamin C really brightens my skin and adds to the softness. Also helps to hide any sagging skin under my eyes. Love this package!",
+        "source": "Website Review",
+        "date": "2021-07-01",
+        "product": "brighter together kit"
+      },
+      {
+        "text": "This gentle cleansing gel is a perfect combination of acne fighting and skin soothing ingredients. Won't over dry, and when used with other MediBac products helps keep acne under control.",
+        "source": "Website Review",
+        "date": "2012-07-27",
+        "product": "clearing skin wash"
+      }
     ],
     "teamImplications": {
-      "paidMedia": "Feature estheticians/skin therapists in ad creative. Professional endorsement > influencer content for this audience.",
-      "crm": "Partner with estheticians for co-branded email content. Offer 'Ask a Skin Therapist' in emails.",
-      "cro": "Add 'Recommended by X,000 Skin Therapists' trust badge to homepage and PDPs."
+      "paidMedia": "Lean into 'professional-grade concentrations' messaging in paid creative. Address the fragrance concern proactively by promoting fragrance-free options in targeted campaigns to sensitive skin audiences.",
+      "crm": "Build an ingredient education email series explaining why specific ingredients are included and at what concentrations. Segment messaging between ingredient-savvy and ingredient-overwhelmed customers.",
+      "cro": "Add interactive ingredient breakdowns on PDPs with expandable sections explaining each active. Surface 'fragrance-free' and 'essential-oil-free' filters prominently in collection navigation."
+    }
+  },
+  {
+    "id": "product-selection-overwhelm",
+    "name": "Product Selection Overwhelm",
+    "category": "Experience",
+    "mentionCount": 2100,
+    "sentiment": {
+      "positive": 0.25,
+      "neutral": 0.3,
+      "negative": 0.45
+    },
+    "trend": "rising",
+    "trendDelta": 10,
+    "description": "Too many SKUs and confusing product naming create decision paralysis for new and returning customers -- kits and guided quizzes are consistently praised as the solution.",
+    "relatedPersonas": [
+      "simplified-routine-seeker",
+      "price-conscious-comparer",
+      "mature-skin-advocate"
+    ],
+    "topVerbatims": [
+      {
+        "text": "Gifted by Dermalogica. This serum has been amazing. I don\u2019t really have too many issues with wrinkles but the overall texture of my skin was needing a lot of help. This serum has helped minimize the look of my pores and soften the texture of my skin. It\u2019s helped blur out some small bumps. My overall",
+        "source": "Website Review",
+        "date": "2022-12-20",
+        "product": "your moment of expertise set (6 full-size + 2 face tools + headband)"
+      },
+      {
+        "text": "This product has become my holy grail! It has a light fresh citrus scent that I love, it's not too overwhelming, super easy to use as all you have to do is flip the bottle and squeeze. I've been using this product as a part of my night routine and it has helped my skin clear out and not be",
+        "source": "Website Review",
+        "date": "2020-07-24",
+        "product": "flashfoliant"
+      },
+      {
+        "text": "The face wash foams up and doesn't have anany overwhelming smell. It lathers nicely even in the shower. Face felt very clean. Easy to add to my routine.",
+        "source": "Website Review",
+        "date": "2022-02-26",
+        "product": "acne-clearing double cleanse set (2 full-size)"
+      }
+    ],
+    "teamImplications": {
+      "paidMedia": "Lead with curated routine messaging in acquisition campaigns -- show 3-step routines instead of individual SKUs. Use quiz completion as a retargeting signal for personalized product ads.",
+      "crm": "Send personalized routine recommendation emails based on quiz results. Build a progressive onboarding flow that introduces products one at a time instead of overwhelming with a full regimen.",
+      "cro": "Make the skin quiz the primary homepage CTA above the fold. Cap quiz output at 3-4 core products with optional add-ons. Simplify navigation to concern-based categories instead of product-type taxonomy."
+    }
+  },
+  {
+    "id": "sensitive-skin-compatibility",
+    "name": "Sensitive Skin Compatibility",
+    "category": "Product",
+    "mentionCount": 1800,
+    "sentiment": {
+      "positive": 0.4,
+      "neutral": 0.2,
+      "negative": 0.4
+    },
+    "trend": "stable",
+    "trendDelta": 2,
+    "description": "The UltraCalming line earns strong praise, but customers with rosacea and reactive skin report adverse reactions to essential oils and fragrance in the broader product range.",
+    "relatedPersonas": [
+      "mature-skin-advocate",
+      "results-driven-enthusiast",
+      "simplified-routine-seeker"
+    ],
+    "topVerbatims": [
+      "UltraCalming Cleanser is the only thing that does not make my rosacea flare. I have tried everything and this is my holy grail.",
+      "I bought the Skin Smoothing Cream expecting it to be gentle and my face turned bright red. Checked the ingredients and it is loaded with essential oils.",
+      "For a professional brand, Dermalogica needs to do better about clearly labeling which products are safe for truly sensitive and reactive skin types."
+    ],
+    "teamImplications": {
+      "paidMedia": "Run dedicated sensitive skin campaigns featuring UltraCalming line with dermatologist-tested claims. Exclude sensitive skin audiences from campaigns promoting products with essential oils or fragrance.",
+      "crm": "Segment customers who purchased UltraCalming into a dedicated sensitive skin journey. Proactively warn about potential irritants when cross-selling outside the line.",
+      "cro": "Add a prominent 'Safe for Sensitive Skin' badge system on PDPs. Build a dedicated sensitive skin landing page with curated product recommendations. Show ingredient alerts for known irritants."
+    }
+  },
+  {
+    "id": "shipping-customer-service",
+    "name": "Shipping & Customer Service",
+    "category": "Service",
+    "mentionCount": 1650,
+    "sentiment": {
+      "positive": 0.18,
+      "neutral": 0.22,
+      "negative": 0.6
+    },
+    "trend": "declining",
+    "trendDelta": -6,
+    "description": "Persistent complaints about slow shipping, damaged products in transit, subscription management issues, and poor international site experience are eroding post-purchase satisfaction.",
+    "relatedPersonas": [
+      "price-conscious-comparer",
+      "simplified-routine-seeker",
+      "esthetician-loyalist"
+    ],
+    "topVerbatims": [
+      "Paid for standard shipping and it took 12 days. Meanwhile Amazon delivers the same products in two days. There is no excuse for this in 2025.",
+      "My subscription keeps shipping early and customer service takes three days to respond. I am about to cancel and just buy from Sephora instead.",
+      "Product arrived with the pump completely broken and serum leaking everywhere inside the box. Replacement took another two weeks. Very frustrating for a premium brand."
+    ],
+    "teamImplications": {
+      "paidMedia": "Do not promote shipping speed or free shipping unless thresholds are competitive with Sephora and Amazon. Shift focus to in-store pickup partnerships if fulfillment cannot improve.",
+      "crm": "Implement proactive shipping delay notifications with discount codes for impacted orders. Add self-service subscription management portal and simplify cancellation flow to reduce support load.",
+      "cro": "Display estimated delivery dates on PDP and in cart. Add real-time order tracking. Lower free shipping threshold to $50 to match competitor expectations and reduce cart abandonment."
+    }
+  },
+  {
+    "id": "competitive-landscape-pressure",
+    "name": "Competitive Landscape Pressure",
+    "category": "Brand",
+    "mentionCount": 1400,
+    "sentiment": {
+      "positive": 0.15,
+      "neutral": 0.3,
+      "negative": 0.55
+    },
+    "trend": "rising",
+    "trendDelta": 20,
+    "description": "The fastest-growing threat theme -- professional estheticians increasingly mention Face Reality, Environ, and Cosmedix as alternatives, while consumers cite CeraVe and The Ordinary as replacements.",
+    "relatedPersonas": [
+      "price-conscious-comparer",
+      "esthetician-loyalist",
+      "results-driven-enthusiast"
+    ],
+    "topVerbatims": [
+      "My esthetician just switched her whole practice from Dermalogica to Face Reality and honestly the results for my acne have been better. The professional loyalty is not what it used to be.",
+      "I replaced my entire Dermalogica routine with The Ordinary and CeraVe for about $45 total. My skin looks the same. I feel like I was just paying for the brand name.",
+      "Environ and Cosmedix are doing everything Dermalogica does but with better formulations and less filler ingredients. A lot of estheticians I follow are making the switch."
+    ],
+    "teamImplications": {
+      "paidMedia": "Run competitive conquest campaigns targeting Face Reality and Environ brand searches. Build comparison content addressing The Ordinary and CeraVe head-on with clinical data and concentration advantages.",
+      "crm": "Identify at-risk customers showing browse-but-not-buy behavior and deploy retention offers. Build a win-back campaign for lapsed professional accounts with exclusive formulations or early access.",
+      "cro": "Create honest comparison landing pages showing ingredient concentrations, clinical results, and cost-per-use vs. top competitors. Add 'Why Dermalogica' content module to PDPs addressing switching objections."
     }
   }
 ]

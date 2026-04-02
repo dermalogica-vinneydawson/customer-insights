@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Target, Mail, MousePointerClick } from 'lucide-react'
+import { ArrowLeft, Target, Mail, MousePointerClick, Printer } from 'lucide-react'
 import { useData } from '../hooks/useData'
-import Card, { SentimentBadge } from '../components/Card'
+import Card, { SentimentBadge, DataSourceTag, SourceBadge } from '../components/Card'
 
 export default function PersonaDetail() {
   const { id } = useParams()
@@ -23,12 +23,23 @@ export default function PersonaDetail() {
       {/* Header */}
       <div className="flex items-start gap-5 mb-8">
         <div className="text-6xl">{p.avatar}</div>
-        <div>
-          <h1 className="text-2xl font-bold">{p.name}</h1>
-          <p className="text-text-secondary mt-1">{p.archetype}</p>
-          <div className="flex items-center gap-3 mt-2">
-            <SentimentBadge sentiment={p.sentimentProfile.overall} score={p.sentimentProfile.score} />
-            <span className="text-sm text-text-secondary">{p.sampleSize.toLocaleString()} customers · {Math.round(p.confidence * 100)}% confidence</span>
+        <div className="flex-1">
+          <div className="flex items-start justify-between">
+            <div>
+              <h1 className="text-2xl font-bold">{p.name}</h1>
+              <p className="text-text-secondary mt-1">{p.archetype}</p>
+              <div className="flex items-center gap-3 mt-2">
+                <SentimentBadge sentiment={p.sentimentProfile.overall} score={p.sentimentProfile.score} />
+                <span className="text-sm text-text-secondary">{p.sampleSize.toLocaleString()} customers · {Math.round(p.confidence * 100)}% confidence</span>
+              </div>
+            </div>
+            <button
+              onClick={() => window.print()}
+              className="print:hidden flex items-center gap-2 px-3 py-2 rounded-lg border border-border text-sm text-text-secondary hover:bg-gray-50 hover:text-text-primary transition-colors"
+            >
+              <Printer size={16} />
+              Export PDF
+            </button>
           </div>
         </div>
       </div>
@@ -36,7 +47,10 @@ export default function PersonaDetail() {
       <div className="grid grid-cols-2 gap-6 mb-6">
         {/* Demographics */}
         <Card>
-          <h3 className="text-sm font-semibold mb-3">Demographics</h3>
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-sm font-semibold">Demographics</h3>
+            <DataSourceTag type="ai" />
+          </div>
           <div className="space-y-2 text-sm">
             <Row label="Age Range" value={p.demographics.ageRange} />
             <Row label="Gender" value={p.demographics.gender} />
@@ -48,7 +62,10 @@ export default function PersonaDetail() {
 
         {/* Purchase Behavior */}
         <Card>
-          <h3 className="text-sm font-semibold mb-3">Purchase Behavior</h3>
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-sm font-semibold">Purchase Behavior</h3>
+            <DataSourceTag type="ai" />
+          </div>
           <div className="space-y-2 text-sm">
             <Row label="Avg Order Value" value={p.purchaseBehavior.aov} />
             <Row label="Purchase Frequency" value={p.purchaseBehavior.frequency} />
@@ -137,13 +154,27 @@ export default function PersonaDetail() {
 
       {/* Verbatims */}
       <Card className="mb-6">
-        <h3 className="text-sm font-semibold mb-3">Top Customer Quotes</h3>
+        <div className="flex items-center justify-between mb-3">
+          <h3 className="text-sm font-semibold">Top Customer Quotes</h3>
+          <DataSourceTag type="real" source="Yotpo Reviews" />
+        </div>
         <div className="space-y-3">
-          {p.topVerbatims.map((v, i) => (
-            <div key={i} className="bg-surface rounded-lg p-3 border border-border">
-              <p className="text-sm italic">"{v}"</p>
-            </div>
-          ))}
+          {p.topVerbatims.map((v, i) => {
+            const isObj = typeof v === 'object'
+            const text = isObj ? v.text : v
+            return (
+              <div key={i} className="bg-surface rounded-lg p-3 border border-border">
+                <p className="text-sm italic">"{text}"</p>
+                {isObj && (
+                  <div className="flex items-center gap-2 mt-2">
+                    <SourceBadge source={v.source} />
+                    {v.product && v.product !== 'nan' && <span className="text-xs text-text-secondary">{v.product}</span>}
+                    {v.date && v.date !== 'nan' && <span className="text-xs text-text-secondary ml-auto">{v.date}</span>}
+                  </div>
+                )}
+              </div>
+            )
+          })}
         </div>
       </Card>
 

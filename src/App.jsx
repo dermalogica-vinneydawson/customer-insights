@@ -7,6 +7,7 @@ import Themes from './pages/Themes'
 import Sentiment from './pages/Sentiment'
 import Verbatims from './pages/Verbatims'
 import Fairing from './pages/Fairing'
+import Clarity from './pages/Clarity'
 import TeamView from './pages/TeamView'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="sentiment" element={<Sentiment />} />
         <Route path="verbatims" element={<Verbatims />} />
         <Route path="fairing" element={<Fairing />} />
+        <Route path="clarity" element={<Clarity />} />
         <Route path="team/:teamId" element={<TeamView />} />
       </Route>
     </Routes>

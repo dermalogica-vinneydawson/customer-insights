@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom'
-import { BarChart3, Users, MessageSquareQuote, TrendingUp, Layers, Target, Mail, MousePointerClick, ClipboardList } from 'lucide-react'
+import { BarChart3, Users, MessageSquareQuote, TrendingUp, Layers, Target, Mail, MousePointerClick, ClipboardList, Activity } from 'lucide-react'
 
 const navItems = [
   { to: '/', label: 'Overview', icon: BarChart3 },
@@ -8,6 +8,7 @@ const navItems = [
   { to: '/sentiment', label: 'Sentiment', icon: TrendingUp },
   { to: '/verbatims', label: 'Verbatims', icon: MessageSquareQuote },
   { to: '/fairing', label: 'Fairing Surveys', icon: ClipboardList },
+  { to: '/clarity', label: 'Behavioral', icon: Activity },
   { to: '/team/paid-media', label: 'Paid Media', icon: Target },
   { to: '/team/crm', label: 'CRM', icon: Mail },
   { to: '/team/cro', label: 'CRO', icon: MousePointerClick },
@@ -51,11 +52,11 @@ export default function Layout() {
 
         <nav className="flex-1 p-3 flex flex-col gap-0.5">
           <p className="text-xs font-semibold text-text-secondary uppercase tracking-wider px-3 pt-3 pb-2">Insights</p>
-          {navItems.slice(0, 6).map(item => (
+          {navItems.slice(0, 7).map(item => (
             <NavItem key={item.to} {...item} />
           ))}
           <p className="text-xs font-semibold text-text-secondary uppercase tracking-wider px-3 pt-5 pb-2">Team Views</p>
-          {navItems.slice(6).map(item => (
+          {navItems.slice(7).map(item => (
             <NavItem key={item.to} {...item} />
           ))}
         </nav>
@@ -64,7 +65,7 @@ export default function Layout() {
           <div className="bg-brand-50 rounded-lg p-3">
             <p className="text-xs font-medium text-brand-700">Last data refresh</p>
             <p className="text-xs text-brand-600 mt-0.5">March 28, 2026</p>
-            <p className="text-xs text-text-secondary mt-1">22,360 mentions analyzed</p>
+            <p className="text-xs text-text-secondary mt-1">209,430 mentions analyzed</p>
           </div>
         </div>
       </aside>

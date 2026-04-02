@@ -1,154 +1,586 @@
 {
   "summary": {
-    "totalResponses": 8420,
+    "totalResponses": 336951,
     "responseRate": 0.42,
-    "dateRange": "2025-07 to 2026-03",
-    "questionsAsked": 6
+    "dateRange": "Survey collection period",
+    "questionsAsked": 12
   },
   "questions": [
     {
-      "id": "hdyhau",
-      "question": "How did you hear about us?",
-      "type": "attribution",
-      "totalResponses": 8420,
+      "id": "open-feedback-0",
+      "question": "Are you open to offering any suggestions or recommendations for enhancing your customer experience?",
+      "type": "open-feedback",
+      "totalResponses": 44500,
       "responses": [
-        { "answer": "Instagram / Facebook Ad", "count": 2360, "pct": 0.28, "avgOrderValue": "$68", "revenueAttribPct": 0.24 },
-        { "answer": "Friend or Family Recommendation", "count": 1768, "pct": 0.21, "avgOrderValue": "$105", "revenueAttribPct": 0.28 },
-        { "answer": "Esthetician / Skin Therapist", "count": 1432, "pct": 0.17, "avgOrderValue": "$118", "revenueAttribPct": 0.25 },
-        { "answer": "Google Search", "count": 1010, "pct": 0.12, "avgOrderValue": "$72", "revenueAttribPct": 0.11 },
-        { "answer": "TikTok", "count": 842, "pct": 0.10, "avgOrderValue": "$54", "revenueAttribPct": 0.07 },
-        { "answer": "YouTube", "count": 421, "pct": 0.05, "avgOrderValue": "$82", "revenueAttribPct": 0.05 },
-        { "answer": "Podcast", "count": 252, "pct": 0.03, "avgOrderValue": "$91", "revenueAttribPct": 0.03 },
-        { "answer": "Other", "count": 335, "pct": 0.04, "avgOrderValue": "$74", "revenueAttribPct": 0.04 }
+        {
+          "answer": "No",
+          "count": 33422,
+          "pct": 0.751,
+          "avgOrderValue": "$140"
+        },
+        {
+          "answer": "Yes",
+          "count": 11078,
+          "pct": 0.249,
+          "avgOrderValue": "$152"
+        }
       ],
-      "personaBreakdown": {
-        "ingredient-conscious": ["Esthetician / Skin Therapist", "YouTube", "Google Search"],
-        "routine-simplifier": ["Friend or Family Recommendation", "Esthetician / Skin Therapist", "Instagram / Facebook Ad"],
-        "deal-seeker": ["TikTok", "Instagram / Facebook Ad", "Google Search"],
-        "skin-concern-solver": ["Esthetician / Skin Therapist", "Google Search", "Friend or Family Recommendation"],
-        "brand-loyalist": ["Esthetician / Skin Therapist", "Friend or Family Recommendation", "Instagram / Facebook Ad"]
-      },
-      "insights": [
-        "Esthetician referrals drive the highest AOV ($118) despite being only 17% of responses — professional channel punches above its weight.",
-        "TikTok drives volume (10%) but lowest AOV ($54) — primarily attracting deal-seekers.",
-        "Word-of-mouth (21%) has the second highest AOV ($105) — loyal customers are the best acquisition channel.",
-        "Meta Ads are the #1 reported channel but AOV trails referrals by 35% — targeting may be too broad."
-      ]
+      "insights": []
     },
     {
-      "id": "purchase-reason",
-      "question": "What was the main reason you decided to purchase today?",
-      "type": "motivation",
-      "totalResponses": 7890,
-      "responses": [
-        { "answer": "Running low / needed to restock", "count": 2525, "pct": 0.32 },
-        { "answer": "Saw a promotion or sale", "count": 1578, "pct": 0.20 },
-        { "answer": "Professional recommended it", "count": 1420, "pct": 0.18 },
-        { "answer": "Trying to solve a specific skin concern", "count": 1104, "pct": 0.14 },
-        { "answer": "Saw a review or recommendation online", "count": 710, "pct": 0.09 },
-        { "answer": "Gift for someone", "count": 395, "pct": 0.05 },
-        { "answer": "Other", "count": 158, "pct": 0.02 }
-      ],
-      "personaBreakdown": {
-        "ingredient-conscious": ["Running low / needed to restock", "Professional recommended it"],
-        "routine-simplifier": ["Running low / needed to restock", "Professional recommended it"],
-        "deal-seeker": ["Saw a promotion or sale", "Saw a review or recommendation online"],
-        "skin-concern-solver": ["Trying to solve a specific skin concern", "Professional recommended it"],
-        "brand-loyalist": ["Running low / needed to restock", "Gift for someone"]
-      },
-      "insights": [
-        "32% are replenishment purchases — strong retention signal. CRM should optimize restock reminders.",
-        "20% are promotion-driven — confirms deal-seeker persona is real and sizable.",
-        "Professional recommendations drive 18% of purchases — this channel needs more investment.",
-        "Only 9% cite online reviews — suggests reviews are a validator, not a primary driver."
-      ]
-    },
-    {
-      "id": "almost-stopped",
-      "question": "What almost stopped you from buying today?",
+      "id": "conversion-blocker-1",
+      "question": "Did you encounter any difficulties during the checkout process?",
       "type": "conversion-blocker",
-      "totalResponses": 6240,
+      "totalResponses": 17925,
       "responses": [
-        { "answer": "Price was higher than expected", "count": 1935, "pct": 0.31 },
-        { "answer": "Nothing, it was an easy decision", "count": 1498, "pct": 0.24 },
-        { "answer": "Wasn't sure which product to choose", "count": 874, "pct": 0.14 },
-        { "answer": "Shipping cost or speed", "count": 749, "pct": 0.12 },
-        { "answer": "Wanted to compare with other brands first", "count": 562, "pct": 0.09 },
-        { "answer": "Wasn't sure it would work for my skin", "count": 437, "pct": 0.07 },
-        { "answer": "Other", "count": 185, "pct": 0.03 }
+        {
+          "answer": "No",
+          "count": 15832,
+          "pct": 0.883,
+          "avgOrderValue": "$128"
+        },
+        {
+          "answer": "Yes",
+          "count": 1126,
+          "pct": 0.063,
+          "avgOrderValue": "$157"
+        },
+        {
+          "answer": "Other",
+          "count": 967,
+          "pct": 0.054,
+          "avgOrderValue": "$159"
+        }
       ],
-      "personaBreakdown": {
-        "ingredient-conscious": ["Nothing, it was an easy decision", "Wanted to compare with other brands first"],
-        "routine-simplifier": ["Wasn't sure which product to choose", "Nothing, it was an easy decision"],
-        "deal-seeker": ["Price was higher than expected", "Shipping cost or speed"],
-        "skin-concern-solver": ["Wasn't sure it would work for my skin", "Wasn't sure which product to choose"],
-        "brand-loyalist": ["Nothing, it was an easy decision", "Price was higher than expected"]
-      },
-      "insights": [
-        "Price is the #1 blocker (31%) — reinforces need for value messaging and loyalty program.",
-        "14% weren't sure which product to choose — the product selection/quiz experience is a CRO priority.",
-        "Shipping concerns block 12% — lowering free shipping threshold would directly impact conversion.",
-        "24% said 'nothing' — these are high-intent buyers, likely brand loyalists and restock customers."
-      ]
+      "insights": []
     },
     {
-      "id": "biggest-benefit",
-      "question": "In your mind, what is the product's biggest benefit to you?",
-      "type": "value-perception",
-      "totalResponses": 5680,
+      "id": "experience-2",
+      "question": "Have you noticed any improvements in the website\u2019s usability since your last visit?",
+      "type": "experience",
+      "totalResponses": 31000,
       "responses": [
-        { "answer": "Visible results / my skin looks better", "count": 1932, "pct": 0.34 },
-        { "answer": "Professional-grade quality I can trust", "count": 1193, "pct": 0.21 },
-        { "answer": "Clean, safe ingredients", "count": 909, "pct": 0.16 },
-        { "answer": "Simplifies my skincare routine", "count": 625, "pct": 0.11 },
-        { "answer": "Targets my specific skin concern", "count": 568, "pct": 0.10 },
-        { "answer": "Good value for the quality", "count": 341, "pct": 0.06 },
-        { "answer": "Other", "count": 112, "pct": 0.02 }
+        {
+          "answer": "No, it's about the same",
+          "count": 20147,
+          "pct": 0.65,
+          "avgOrderValue": "$151"
+        },
+        {
+          "answer": "Yes, it has improved",
+          "count": 10352,
+          "pct": 0.334,
+          "avgOrderValue": "$151"
+        },
+        {
+          "answer": "No, it has become less user-friendly",
+          "count": 501,
+          "pct": 0.016,
+          "avgOrderValue": "$161"
+        }
       ],
-      "insights": [
-        "'Visible results' is the #1 perceived benefit (34%) — this should be the hero message across all channels.",
-        "'Professional-grade quality' (21%) validates the professional trust theme — lean into esthetician credibility.",
-        "'Clean ingredients' (16%) maps directly to the ingredient-conscious persona.",
-        "Only 6% cite 'value' — the brand is NOT perceived as a value play. Premium positioning is correct."
-      ]
+      "insights": []
     },
     {
-      "id": "product-use",
-      "question": "How are you planning to use the product you purchased?",
-      "type": "intent",
-      "totalResponses": 4920,
+      "id": "loyalty-3",
+      "question": "Have you subscribed to your favorite product to receive regular deliveries?",
+      "type": "loyalty",
+      "totalResponses": 43692,
       "responses": [
-        { "answer": "Daily skincare routine", "count": 2165, "pct": 0.44 },
-        { "answer": "Treating a specific skin issue", "count": 1230, "pct": 0.25 },
-        { "answer": "Anti-aging / prevention", "count": 788, "pct": 0.16 },
-        { "answer": "Gift for someone", "count": 394, "pct": 0.08 },
-        { "answer": "Trying it out for the first time", "count": 343, "pct": 0.07 }
+        {
+          "answer": "No, I prefer one-time purchases",
+          "count": 15023,
+          "pct": 0.344,
+          "avgOrderValue": "$150"
+        },
+        {
+          "answer": "Other",
+          "count": 9216,
+          "pct": 0.211,
+          "avgOrderValue": "$146"
+        },
+        {
+          "answer": "No, I'm not interested in subscribing",
+          "count": 7249,
+          "pct": 0.166,
+          "avgOrderValue": "$149"
+        },
+        {
+          "answer": "No, but I have considered it",
+          "count": 6111,
+          "pct": 0.14,
+          "avgOrderValue": "$151"
+        },
+        {
+          "answer": "Yes, I am currently subscribed",
+          "count": 5162,
+          "pct": 0.118,
+          "avgOrderValue": "$140"
+        },
+        {
+          "answer": "Yes, but I am no longer subscribed",
+          "count": 931,
+          "pct": 0.021,
+          "avgOrderValue": "$143"
+        }
       ],
-      "insights": [
-        "44% use for daily routine — CRM should optimize for replenishment timing.",
-        "25% treating a specific issue — post-purchase follow-up should ask about results at 30/60/90 days.",
-        "8% are gifts — seasonal gift campaigns and gift set merchandising are an opportunity.",
-        "7% are first-time triers — critical to convert these to repeat buyers with strong onboarding flow."
-      ]
+      "insights": []
     },
     {
-      "id": "communication-pref",
-      "question": "What types of communications would you prefer to receive?",
-      "type": "preference",
-      "totalResponses": 4350,
+      "id": "attribution-4",
+      "question": "How did you find our website today?",
+      "type": "attribution",
+      "totalResponses": 39370,
       "responses": [
-        { "answer": "New product launches", "count": 1436, "pct": 0.33 },
-        { "answer": "Skincare tips & education", "count": 1131, "pct": 0.26 },
-        { "answer": "Sales & promotions", "count": 914, "pct": 0.21 },
-        { "answer": "Routine recommendations", "count": 522, "pct": 0.12 },
-        { "answer": "Professional/expert content", "count": 348, "pct": 0.08 }
+        {
+          "answer": "Friend or Family",
+          "count": 7760,
+          "pct": 0.197,
+          "avgOrderValue": "$130"
+        },
+        {
+          "answer": "Search Engine (e.g. Google)",
+          "count": 6909,
+          "pct": 0.175,
+          "avgOrderValue": "$121"
+        },
+        {
+          "answer": "Other",
+          "count": 6449,
+          "pct": 0.164,
+          "avgOrderValue": "$135"
+        },
+        {
+          "answer": "Instagram",
+          "count": 4758,
+          "pct": 0.121,
+          "avgOrderValue": "$107"
+        },
+        {
+          "answer": "Facebook",
+          "count": 3448,
+          "pct": 0.088,
+          "avgOrderValue": "$117"
+        },
+        {
+          "answer": "Esthetician Recommendation",
+          "count": 2672,
+          "pct": 0.068,
+          "avgOrderValue": "$144"
+        },
+        {
+          "answer": "Email",
+          "count": 1652,
+          "pct": 0.042,
+          "avgOrderValue": "$137"
+        },
+        {
+          "answer": "TikTok",
+          "count": 1347,
+          "pct": 0.034,
+          "avgOrderValue": "$104"
+        },
+        {
+          "answer": "Influencer",
+          "count": 1089,
+          "pct": 0.028,
+          "avgOrderValue": "$116"
+        },
+        {
+          "answer": "Esthetician School",
+          "count": 980,
+          "pct": 0.025,
+          "avgOrderValue": "$153"
+        },
+        {
+          "answer": "Spa Treatment",
+          "count": 785,
+          "pct": 0.02,
+          "avgOrderValue": "$153"
+        },
+        {
+          "answer": "Hand & Stone",
+          "count": 780,
+          "pct": 0.02,
+          "avgOrderValue": "$153"
+        }
       ],
-      "insights": [
-        "33% want new product launches — CRM should prioritize launch announcements to this segment.",
-        "26% prefer education — maps to ingredient-conscious persona; fuel the education email series.",
-        "21% want sales/promos — confirms deal-seeker segment size; use for promotional flow targeting.",
-        "Self-segmentation via this question can directly feed Klaviyo profile properties for personalization."
-      ]
+      "insights": []
+    },
+    {
+      "id": "frequency-5",
+      "question": "How frequently do you shop on dermalogica.com?",
+      "type": "frequency",
+      "totalResponses": 28500,
+      "responses": [
+        {
+          "answer": "Occasionally (once every few months)",
+          "count": 21171,
+          "pct": 0.743,
+          "avgOrderValue": "$154"
+        },
+        {
+          "answer": "Regularly (once a month)",
+          "count": 3936,
+          "pct": 0.138,
+          "avgOrderValue": "$151"
+        },
+        {
+          "answer": "First-time returning customer",
+          "count": 2537,
+          "pct": 0.089,
+          "avgOrderValue": "$146"
+        },
+        {
+          "answer": "Frequently (multiple times a month)",
+          "count": 856,
+          "pct": 0.03,
+          "avgOrderValue": "$148"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "satisfaction-6",
+      "question": "How would you rate the overall shopping experience on dermalogica.com?",
+      "type": "satisfaction",
+      "totalResponses": 18545,
+      "responses": [
+        {
+          "answer": "Very Satisfactory",
+          "count": 11265,
+          "pct": 0.607,
+          "avgOrderValue": "$130"
+        },
+        {
+          "answer": "Satisfactory",
+          "count": 5513,
+          "pct": 0.297,
+          "avgOrderValue": "$129"
+        },
+        {
+          "answer": "Neutral",
+          "count": 1373,
+          "pct": 0.074,
+          "avgOrderValue": "$131"
+        },
+        {
+          "answer": "Very Unsatisfactory",
+          "count": 232,
+          "pct": 0.013,
+          "avgOrderValue": "$146"
+        },
+        {
+          "answer": "Unsatisfactory",
+          "count": 162,
+          "pct": 0.009,
+          "avgOrderValue": "$147"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "satisfaction-7",
+      "question": "On a scale of 0\u201310, how satisfied were you with your shopping experience on dermalogica.com?",
+      "type": "satisfaction",
+      "totalResponses": 50559,
+      "responses": [
+        {
+          "answer": "10",
+          "count": 26810,
+          "pct": 0.53,
+          "avgOrderValue": "$156"
+        },
+        {
+          "answer": "Other",
+          "count": 13391,
+          "pct": 0.265,
+          "avgOrderValue": "$159"
+        },
+        {
+          "answer": "9",
+          "count": 4077,
+          "pct": 0.081,
+          "avgOrderValue": "$162"
+        },
+        {
+          "answer": "8",
+          "count": 3169,
+          "pct": 0.063,
+          "avgOrderValue": "$164"
+        },
+        {
+          "answer": "7",
+          "count": 1176,
+          "pct": 0.023,
+          "avgOrderValue": "$171"
+        },
+        {
+          "answer": "5",
+          "count": 657,
+          "pct": 0.013,
+          "avgOrderValue": "$157"
+        },
+        {
+          "answer": "6",
+          "count": 583,
+          "pct": 0.012,
+          "avgOrderValue": "$164"
+        },
+        {
+          "answer": "4",
+          "count": 182,
+          "pct": 0.004,
+          "avgOrderValue": "$162"
+        },
+        {
+          "answer": "0",
+          "count": 156,
+          "pct": 0.003,
+          "avgOrderValue": "$150"
+        },
+        {
+          "answer": "3",
+          "count": 145,
+          "pct": 0.003,
+          "avgOrderValue": "$175"
+        },
+        {
+          "answer": "2",
+          "count": 121,
+          "pct": 0.002,
+          "avgOrderValue": "$158"
+        },
+        {
+          "answer": "1",
+          "count": 92,
+          "pct": 0.002,
+          "avgOrderValue": "$150"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "motivation-8",
+      "question": "What motivated you to return to dermalogica.com today?",
+      "type": "motivation",
+      "totalResponses": 29500,
+      "responses": [
+        {
+          "answer": "Product quality",
+          "count": 12324,
+          "pct": 0.418,
+          "avgOrderValue": "$156"
+        },
+        {
+          "answer": "Positive past experiences",
+          "count": 7643,
+          "pct": 0.259,
+          "avgOrderValue": "$156"
+        },
+        {
+          "answer": "Rewards and loyalty programs",
+          "count": 3862,
+          "pct": 0.131,
+          "avgOrderValue": "$157"
+        },
+        {
+          "answer": "Fast and reliable shipping",
+          "count": 3629,
+          "pct": 0.123,
+          "avgOrderValue": "$151"
+        },
+        {
+          "answer": "Competitive prices",
+          "count": 1063,
+          "pct": 0.036,
+          "avgOrderValue": "$145"
+        },
+        {
+          "answer": "Other",
+          "count": 979,
+          "pct": 0.033,
+          "avgOrderValue": "$155"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "skin-concern-9",
+      "question": "What skin concern(s) were you trying to solve with today's purchase?",
+      "type": "skin-concern",
+      "totalResponses": 29000,
+      "responses": [
+        {
+          "answer": "aging skin",
+          "count": 10053,
+          "pct": 0.347,
+          "avgOrderValue": "$166"
+        },
+        {
+          "answer": "dehydrated skin",
+          "count": 4068,
+          "pct": 0.14,
+          "avgOrderValue": "$160"
+        },
+        {
+          "answer": "sensitive skin",
+          "count": 4009,
+          "pct": 0.138,
+          "avgOrderValue": "$153"
+        },
+        {
+          "answer": "dry skin",
+          "count": 3786,
+          "pct": 0.131,
+          "avgOrderValue": "$161"
+        },
+        {
+          "answer": "acne",
+          "count": 2464,
+          "pct": 0.085,
+          "avgOrderValue": "$140"
+        },
+        {
+          "answer": "redness",
+          "count": 1889,
+          "pct": 0.065,
+          "avgOrderValue": "$161"
+        },
+        {
+          "answer": "oily skin",
+          "count": 1396,
+          "pct": 0.048,
+          "avgOrderValue": "$142"
+        },
+        {
+          "answer": "Other",
+          "count": 1335,
+          "pct": 0.046,
+          "avgOrderValue": "$148"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "demographics-10",
+      "question": "Who will be using the Clear Start product in your order?",
+      "type": "demographics",
+      "totalResponses": 190,
+      "responses": [
+        {
+          "answer": "Me",
+          "count": 55,
+          "pct": 0.289,
+          "avgOrderValue": "$139"
+        },
+        {
+          "answer": "Someone else",
+          "count": 29,
+          "pct": 0.153,
+          "avgOrderValue": "$127"
+        },
+        {
+          "answer": "No",
+          "count": 28,
+          "pct": 0.147,
+          "avgOrderValue": "$147"
+        },
+        {
+          "answer": "Yes",
+          "count": 27,
+          "pct": 0.142,
+          "avgOrderValue": "$131"
+        },
+        {
+          "answer": "13\u201317",
+          "count": 17,
+          "pct": 0.089,
+          "avgOrderValue": "$135"
+        },
+        {
+          "answer": "We'll both use it",
+          "count": 12,
+          "pct": 0.063,
+          "avgOrderValue": "$210"
+        },
+        {
+          "answer": "I did",
+          "count": 7,
+          "pct": 0.037,
+          "avgOrderValue": "$105"
+        },
+        {
+          "answer": "18\u201324",
+          "count": 5,
+          "pct": 0.026,
+          "avgOrderValue": "$119"
+        },
+        {
+          "answer": "25+",
+          "count": 5,
+          "pct": 0.026,
+          "avgOrderValue": "$120"
+        },
+        {
+          "answer": "We discovered it together",
+          "count": 3,
+          "pct": 0.016,
+          "avgOrderValue": "$542"
+        },
+        {
+          "answer": "Under 13",
+          "count": 1,
+          "pct": 0.005,
+          "avgOrderValue": "$29"
+        },
+        {
+          "answer": "They did",
+          "count": 1,
+          "pct": 0.005,
+          "avgOrderValue": "$122"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "general-11",
+      "question": "Would you be interested in a potential Dermalogica Premium membership that offers exclusive shopping perks for annual subscribers?",
+      "type": "general",
+      "totalResponses": 4170,
+      "responses": [
+        {
+          "answer": "Other",
+          "count": 1391,
+          "pct": 0.334,
+          "avgOrderValue": "$170"
+        },
+        {
+          "answer": "No, I\u2019m not interested",
+          "count": 1001,
+          "pct": 0.24,
+          "avgOrderValue": "$141"
+        },
+        {
+          "answer": "Maybe, I\u2019d like to know more",
+          "count": 748,
+          "pct": 0.179,
+          "avgOrderValue": "$171"
+        },
+        {
+          "answer": "Not sure",
+          "count": 557,
+          "pct": 0.134,
+          "avgOrderValue": "$148"
+        },
+        {
+          "answer": "Yes, that sounds interesting",
+          "count": 473,
+          "pct": 0.113,
+          "avgOrderValue": "$177"
+        }
+      ],
+      "insights": []
     }
   ]
 }
